@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_bt_commission_profile_form" model="ir.ui.view">
+        <field name="name">bt.commission.profile.form</field>
+        <field name="model">bt.commission.profile</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="name" string="name"/>
+                    <field name="active" widget="boolean_toggle"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_bt_commission_profile_tree" model="ir.ui.view">
+        <field name="name">bt.commission.profile.tree</field>
+        <field name="model">bt.commission.profile</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" string="name"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_bt_commission_profile" model="ir.actions.act_window">
+       <field name="name">BT Commission Profile</field>
+       <field name="res_model">bt.commission.profile</field>
+       <field name="view_mode">tree,form</field>
+       <field name="context">{}</field>
+        <field name="domain">[]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No data yet!
+            </p><p>
+                Start scheduling activities on your opportunities
+            </p>
+        </field>
+   </record>
+
+    <!--<menuitem
+        id="submenu_bt_commission_profile"
+        name="Commission profile"
+        parent="account.account_reports_management_menu"
+        action="action_bt_commission_profile"
+        sequence="4"/>-->
+
+</odoo>

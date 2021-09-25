@@ -1,0 +1,54 @@
+<odoo>
+    <record id="bt_commission_wizard" model="ir.ui.view">
+        <field name="name">bt.commission.wizard.form</field>
+        <field name="model">bt.commission.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                <group>
+                    <group>
+                        <field name="date_start"/>
+                    </group>
+                    <group>
+                        <field name="date_finish"/>
+                    </group>
+                </group>
+                <hr/>
+                <group>
+                    <group>
+                        <field name="profile"/>
+                        <field name="job" attrs='{"invisible":[("profile","=",False)]}'
+                            context="{'forced_load':True}" 
+                            domain="[('profile_ids','in',profile)]"/>
+<!--                        <field name="job" attrs='{"invisible":[("profile","=",False)]}' domain="job_id_domain"/>-->
+<!--                        <field name="job_id_domain" invisible="1"/>-->
+                        <field name="category" attrs='{"invisible":[("job","=",False)]}'
+                            context="{'forced_load':True}" 
+                            domain="[('profile_ids','in',profile),('job_ids','in',job)]"/>
+                    </group>
+                    <group>
+                        <field name="collaborator"/>
+                        <field name="type"/>
+                    </group>
+                </group>
+                </sheet>
+                <footer>
+                    <button string="generate" name="generate_commission_profile" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="action_bt_commission_wizard" model="ir.actions.act_window">
+        <field name="name">bt commission wizard</field>
+        <field name="res_model">bt.commission.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="bt_commission_wizard"/>
+        <field name="target">new</field>
+    </record>
+    <menuitem id="submenu_commission_wizard"
+              name="Commission wizard"
+              parent="account.menu_finance_reports"
+              action="action_bt_commission_wizard"
+              sequence="8"/>
+</odoo>
