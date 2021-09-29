@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="account_reports_legal_cr_statements_menu"
+              name="Costa Rica" parent="hr_payroll.menu_hr_payroll_report"
+              sequence="0" groups="hr_payroll.group_hr_payroll_manager"/>
+    <record id="action_account_report_ins" model="ir.actions.client">
+        <field name="name">INS</field>
+        <field name="tag">account_report</field>
+        <field name="context" eval="{'model': 'l10n_cr.ins'}"/>
+    </record>
+    <menuitem id="menu_action_account_report_ins"
+              name="INS"
+              action="action_account_report_ins"
+              parent="account_reports_legal_cr_statements_menu"/>
+</odoo>

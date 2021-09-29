@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_hr_job_form_inherit_l10n_cr">
+        <field name="name">view.hr.job.form.inherit.l10n_cr</field>
+        <field name="model">hr.job</field>
+        <field name="inherit_id" ref="hr.view_hr_job_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group>
+                    <field name="code"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
+

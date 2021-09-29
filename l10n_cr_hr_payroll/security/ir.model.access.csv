@@ -1,0 +1,2 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_update_contract_wage,access_update_contract_wage,model_update_contract_wage,,1,1,1,1

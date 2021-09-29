@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_inherit_l10n_mx_edi_payslip" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.l10n.mx.edi.payslip</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="hr_payroll.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='hr_payroll_accountant']" position="after">
+                <h2>Costa Rican Payroll Configuration</h2>
+                <div class="row mt16 o_settings_container" name="rent_limits_setting_container">
+                    <div class="col-12 col-lg-6 o_setting_box" id="rent_limits_configuration" title="The parameters to configure the limits for Rents.">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Rent Limits Configuration</span>
+                            <div class="text-muted">
+                                Configure limits to rents.
+                            </div>
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="l10n_cr_first_limit" class="col-lg-3"/>
+                                    <field name="l10n_cr_first_limit"/>
+                                    <label for="l10n_cr_second_limit" class="col-lg-3"/>
+                                    <field name="l10n_cr_second_limit"/>
+                                </div>
+                                <div class="row">
+                                    <label for="l10n_cr_third_limit" class="col-lg-3"/>
+                                    <field name="l10n_cr_third_limit"/>
+                                    <label for="l10n_cr_fourth_limit" class="col-lg-3"/>
+                                    <field name="l10n_cr_fourth_limit"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 o_setting_box" id="rent_configuration" title="The parameters to configure the Rents.">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Rent Configuration</span>
+                            <div class="text-muted">
+                                Configure data to rents.
+                            </div>
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="l10n_cr_amount_per_child" class="col-lg-3"/>
+                                    <field name="l10n_cr_amount_per_child"/>
+                                    <label for="l10n_cr_amount_per_spouse" class="col-lg-3"/>
+                                    <field name="l10n_cr_amount_per_spouse"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt16 o_settings_container" name="hr_payslip_setting_container">
+                    <div class="col-12 col-lg-6 o_setting_box" id="hr_payslip_configuration" title="The parameters to configure the Payslip.">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Costa Rica</span>
+                            <div class="text-muted">
+                                Configure data to payroll rules.
+                            </div>
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="l10n_cr_ccss" class="col-lg-6 o_light_label"/>
+                                    <field name="l10n_cr_ccss" class="text-left oe_inline"/>
+                                </div>
+                                <div class="row">
+                                    <label for="l10n_cr_bpdc" class="col-lg-6 o_light_label"/>
+                                    <field name="l10n_cr_bpdc" class="text-left oe_inline"/>
+                                </div>
+                                <div class="row">
+                                    <label for="l10n_cr_working_asociacion_solidarista" class="col-lg-6 o_light_label"/>
+                                    <field name="l10n_cr_working_asociacion_solidarista" class="text-left oe_inline"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 o_setting_box" id="ins_configuration" title="The parameters to configure the INS.">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">INS</span>
+                            <div class="text-muted">
+                                Configure data to INS report.
+                            </div>
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="l10n_cr_ins_number" class="col-lg-3"/>
+                                    <field name="l10n_cr_ins_number"/>
+                                    <label for="l10n_cr_ins_fax" class="col-lg-3"/>
+                                    <field name="l10n_cr_ins_fax"/>
+                                </div>
+                                <div class="row">
+                                    <label for="l10n_cr_ins_header" class="col-lg-3"/>
+                                    <field name="l10n_cr_ins_header"/>
+                                    <label for="l10n_cr_ins_email" class="col-lg-3"/>
+                                    <field name="l10n_cr_ins_email"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

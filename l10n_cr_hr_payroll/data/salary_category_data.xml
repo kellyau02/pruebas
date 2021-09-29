@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <!-- Categories -->
+    <record id="hr_salary_rule_category_hr_salary_rule_category_bruto" model="hr.salary.rule.category">
+        <field name="name">Bruto</field>
+        <field name="code">BRUTO</field>
+    </record>
+    <record id="hr_salary_rule_category_deduction" model="hr.salary.rule.category">
+        <field name="name">Deduction</field>
+        <field name="code">DEDUC</field>
+    </record>
+    <record id="hr_salary_rule_category_asociacion_solidarista" model="hr.salary.rule.category">
+        <field name="name">ASOCIACIÓN SOLIDARISTA</field>
+        <field name="code">ASE</field>
+    </record>
+    <record id="hr_salary_rule_category_other" model="hr.salary.rule.category">
+        <field name="name">Other Deductions</field>
+        <field name="code">OTHER</field>
+    </record>
+    <record id="hr_salary_rule_category_netsa" model="hr.salary.rule.category">
+        <field name="name">Net Salary</field>
+        <field name="code">NETSA</field>
+    </record>
+    <record id="hr_salary_rule_category_totals" model="hr.salary.rule.category">
+        <field name="name">Totals</field>
+        <field name="code">TOTALS</field>
+    </record>
+</odoo>
