@@ -211,14 +211,6 @@ msgid "Display Name"
 msgstr "Nombre mostrado"
 
 #. module: bt_report_commission
-#: code:addons/bt_report_commission/models/bt_account_line_report copy.py:0
-#: code:addons/bt_report_commission/models/bt_account_line_report.py:0
-#: model:ir.model.fields.selection,name:bt_report_commission.selection__bt_account_line_report__parent_state__draft
-#, python-format
-msgid "Draft"
-msgstr "Borrador"
-
-#. module: bt_report_commission
 #: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__total_payment
 #: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__total_payment
 msgid "Full Payment"
@@ -394,7 +386,7 @@ msgstr "Cantidad"
 #. module: bt_report_commission
 #: model:ir.model,name:bt_report_commission.model_bt_account_line_report
 msgid "Report - Account Line"
-msgstr ""
+msgstr "Reporte líneas de cuenta"
 
 #. module: bt_report_commission
 #: model:ir.model,name:bt_report_commission.model_bt_rpt_cmn_account_line_calculator
@@ -434,7 +426,7 @@ msgstr "Seleccione una categoría para el producto actual"
 #: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_job
 #: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_profile
 msgid "Start scheduling activities on your opportunities"
-msgstr ""
+msgstr "Comience a programar actividades en sus oportunidades"
 
 #. module: bt_report_commission
 #: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__parent_state
