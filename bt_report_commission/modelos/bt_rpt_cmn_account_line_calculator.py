@@ -1,24 +1,5 @@
 
-# # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
-from odoo import fields, models, tools, api, _
-from odoo.exceptions import UserError
-
-from datetime import datetime
-
-class bt_rpt_cmn_account_line_calculator(models.Model):
-    _name = 'bt.rpt.cmn.account.line.calculator'
-    _description = 'Report - Account Line - Calculator'
-    _rec_name = 'id'
-    _order = "id"
-
-    account_line_id = fields.Many2one('account.move.line', string='Account', required=True,
-                    ondelete="cascade")
-
-    collaborator = fields.Many2one('res.users', string='collaborator')
-    job
-# # -*- coding: utf-8 -*-
+# # -*- coding: utf-8 -*
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import fields, models, tools, api, _
