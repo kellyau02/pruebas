@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="id_menu_bt_commision" name="Commisions" parent="account.menu_finance_configuration"
+                    sequence="6"/>
+
+
+        <menuitem
+        id="submenu_bt_commission_configuration"
+        name="Commission configuration"
+        parent="id_menu_bt_commision"
+        action="action_bt_commission_configuration"
+        sequence="1"/>
+
+        <menuitem
+        id="submenu_bt_commission_category"
+        name="Commission category"
+        parent="id_menu_bt_commision"
+        action="action_bt_commission_category"
+        sequence="2"/>
+
+        <menuitem
+        id="submenu_bt_commission_job"
+        name="Commission job"
+        parent="id_menu_bt_commision"
+        action="action_bt_commission_job"
+        sequence="3"/>
+
+        <menuitem
+        id="submenu_bt_commission_profile"
+        name="Commission profile"
+        parent="id_menu_bt_commision"
+        action="action_bt_commission_profile"
+        sequence="4"/>
+
+
+
+	</data>
+</odoo>

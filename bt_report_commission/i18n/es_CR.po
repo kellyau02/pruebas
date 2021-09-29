@@ -1,0 +1,538 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bt_report_commission
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-25 06:09+0000\n"
+"PO-Revision-Date: 2021-09-25 06:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__account_id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__account_line_id
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__account_line_id
+msgid "Account Line"
+msgstr "Línea de cuenta"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__active
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__active
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: bt_report_commission
+#: model:ir.actions.act_window,name:bt_report_commission.action_bt_commission_category
+msgid "BT Commission Category"
+msgstr "Categorías"
+
+#. module: bt_report_commission
+#: model:ir.actions.act_window,name:bt_report_commission.action_bt_commission_profile
+msgid "BT Commission Profile"
+msgstr "Perfiles"
+
+#. module: bt_report_commission
+#: model:ir.actions.act_window,name:bt_report_commission.action_bt_commission_job
+msgid "BT Commission job"
+msgstr "Puestos"
+
+#. module: bt_report_commission
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_graph
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_pivot
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_search
+msgid "Base Ventas"
+msgstr "Base de ventas"
+
+#. module: bt_report_commission
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.bt_commission_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: bt_report_commission
+#: code:addons/bt_report_commission/models/bt_account_line_report copy.py:0
+#: code:addons/bt_report_commission/models/bt_account_line_report.py:0
+#: model:ir.model.fields.selection,name:bt_report_commission.selection__bt_account_line_report__parent_state__cancel
+#, python-format
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_commission_category
+msgid "Categories"
+msgstr "Categorías"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__product_id_categ
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__categ_id
+msgid "Category"
+msgstr "Categoría"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__amount_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__amount_commission
+msgid "Commision Amount"
+msgstr "Monto de comisión"
+
+#. module: bt_report_commission
+#: model:ir.ui.menu,name:bt_report_commission.id_menu_bt_commision
+msgid "Commisions"
+msgstr "Comisiones"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__commission_percentage
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__commission_percentage
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__commission_percentage
+msgid "Commission Percentage"
+msgstr "Porcentaje de comisión"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_commission_wizard
+msgid "Commission Wizard"
+msgstr "Generar reporte de comisiones"
+
+#. module: bt_report_commission
+#: model:ir.ui.menu,name:bt_report_commission.submenu_bt_commission_category
+msgid "Commission category"
+msgstr "Categorías"
+
+#. module: bt_report_commission
+#: model:ir.actions.act_window,name:bt_report_commission.action_bt_commission_configuration
+#: model:ir.ui.menu,name:bt_report_commission.submenu_bt_commission_configuration
+msgid "Commission configuration"
+msgstr "Configuración de las comisiones"
+
+#. module: bt_report_commission
+#: model:ir.ui.menu,name:bt_report_commission.submenu_bt_commission_job
+msgid "Commission job"
+msgstr "Puestos"
+
+#. module: bt_report_commission
+#: model:ir.ui.menu,name:bt_report_commission.submenu_bt_commission_profile
+msgid "Commission profile"
+msgstr "Perfiles"
+
+#. module: bt_report_commission
+#: model:ir.ui.menu,name:bt_report_commission.submenu_commission_wizard
+msgid "Commission wizard"
+msgstr "Generar reporte de comisiones"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_commission
+msgid "Commissions"
+msgstr "Comisiones"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__company_id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__company_id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__company_id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__company_id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__company_currency_id
+msgid "Company - Currency"
+msgstr "Moneda"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__product_id_cost_unit
+msgid "Cost Unit"
+msgstr "Costo unitario"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__create_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__create_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__create_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__create_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__create_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__create_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__create_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__create_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__create_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__create_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__date
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_search
+msgid "Date"
+msgstr "Fecha"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__date_finish
+msgid "Date finish"
+msgstr "Fecha de finalización"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__date_start
+msgid "Date start"
+msgstr "Fecha de inicio"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__discount
+msgid "Discount"
+msgstr "Descuento"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_account_move__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__display_name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: bt_report_commission
+#: code:addons/bt_report_commission/models/bt_account_line_report copy.py:0
+#: code:addons/bt_report_commission/models/bt_account_line_report.py:0
+#: model:ir.model.fields.selection,name:bt_report_commission.selection__bt_account_line_report__parent_state__draft
+#, python-format
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__total_payment
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__total_payment
+msgid "Full Payment"
+msgstr "Pago completo"
+
+#. module: bt_report_commission
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_search
+msgid "Group By"
+msgstr "Agrupado por"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_account_move__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__id
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__id
+msgid "ID"
+msgstr "ID"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,help:bt_report_commission.field_bt_account_line_report__product_id_cost_unit
+msgid ""
+"In Standard Price & AVCO: value of the product (automatically computed in AVCO).\n"
+"        In FIFO: value of the last unit that left the stock (automatically computed).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__job_ids
+msgid "Job"
+msgstr "Puesto"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_commission_job
+msgid "Jobs"
+msgstr "Puestos"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_account_move____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard____last_update
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__write_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__write_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__write_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__write_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__write_uid
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__write_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__write_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__write_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__write_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__write_date
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__name
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_search
+msgid "Name"
+msgstr "Nombre"
+
+#. module: bt_report_commission
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_account_line_report
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_category
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_configuration
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_job
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_profile
+msgid "No data yet!"
+msgstr "¡No hay datos aún!"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__number
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_search
+msgid "Number"
+msgstr "Número"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__partner_id
+msgid "Partner"
+msgstr "Cliente"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__amount_payment
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__amount_payment
+msgid "Payment Amount"
+msgstr "Monto del pago"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__commission_payment
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__commission_payment
+msgid "Payment Commission"
+msgstr "Pago de la comisión"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__percentage_payment
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__percentage_payment
+msgid "Payment Percentage"
+msgstr "Porcentaje del pago"
+
+#. module: bt_report_commission
+#: model:ir.model.fields.selection,name:bt_report_commission.selection__bt_commission_wizard__type__payments
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: bt_report_commission
+#: code:addons/bt_report_commission/models/bt_account_line_report copy.py:0
+#: code:addons/bt_report_commission/models/bt_account_line_report.py:0
+#: model:ir.model.fields.selection,name:bt_report_commission.selection__bt_account_line_report__parent_state__posted
+#, python-format
+msgid "Posted"
+msgstr "Posteado"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__price_subtotal
+msgid "Price Subtotal"
+msgstr "Subtotal"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__price_total
+msgid "Price Total"
+msgstr "Total"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__price_total_currency_id
+msgid "Price Total - Company Currency"
+msgstr "Precio total"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__price_unit
+msgid "Price Unit"
+msgstr "Precio unitario"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_commission_profile
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__profile_ids
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__profile_ids
+msgid "Profiles"
+msgstr "Perfiles"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_account_line_report
+msgid "Report - Account Line"
+msgstr ""
+
+#. module: bt_report_commission
+#: model:ir.model,name:bt_report_commission.model_bt_rpt_cmn_account_line_calculator
+msgid "Report - Account Line - Calculator"
+msgstr "Calculador líneas de cuenta"
+
+#. module: bt_report_commission
+#: model:ir.actions.act_window,name:bt_report_commission.action_bt_account_line_report
+#: model:ir.ui.menu,name:bt_report_commission.submenu_bt_account_line_report
+msgid "Report Account Line"
+msgstr "Reporte líneas de cuenta"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__commission_id
+msgid "Report Commission"
+msgstr "Reporte de comsisiones"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__run_commission
+msgid "Run Commission"
+msgstr "Correr comisión"
+
+#. module: bt_report_commission
+#: model:ir.model.fields.selection,name:bt_report_commission.selection__bt_commission_wizard__type__sales
+msgid "Sales"
+msgstr "Ventas"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,help:bt_report_commission.field_bt_account_line_report__product_id_categ
+msgid "Select category for the current product"
+msgstr "Seleccione una categoría para el producto actual"
+
+#. module: bt_report_commission
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_account_line_report
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_category
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_configuration
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_job
+#: model_terms:ir.actions.act_window,help:bt_report_commission.action_bt_commission_profile
+msgid "Start scheduling activities on your opportunities"
+msgstr ""
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__parent_state
+msgid "State"
+msgstr "Estado"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__taxes_percentage
+msgid "Taxes Percentage"
+msgstr "Porcentaje de impuestos"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__move_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__account_id_user
+msgid "User"
+msgstr "Usuario"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__utility_percentage
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__utility_percentage
+msgid "Utility Percentage"
+msgstr "Porcentaje de utilidad"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__utility_sale
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__utility_sale
+msgid "Utility Sale"
+msgstr "Utilidad de venta"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__active
+msgid "active"
+msgstr "Activo"
+
+#. module: bt_report_commission
+#: model:ir.actions.act_window,name:bt_report_commission.action_bt_commission_wizard
+msgid "bt commission wizard"
+msgstr "Generar reporte de comisiones"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__category
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__category
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__category
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__category
+msgid "category"
+msgstr "Categoría"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__collaborator
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__collaborator
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__collaborator
+msgid "collaborator"
+msgstr "Colaborador"
+
+#. module: bt_report_commission
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_account_line_report_search
+msgid "currency_id"
+msgstr "Moneda"
+
+#. module: bt_report_commission
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.bt_commission_wizard
+msgid "generate"
+msgstr "Generar"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__job
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__job
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__job
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__job
+msgid "job"
+msgstr "Puesto"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_category__name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_job__name
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_profile__name
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_commission_category_form
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_commission_job_form
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_commission_job_tree
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_commission_profile_form
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_commission_profile_tree
+#: model_terms:ir.ui.view,arch_db:bt_report_commission.view_bt_commission_tree
+msgid "name"
+msgstr "Nombre"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_account_line_report__profile
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission__profile
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__profile
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_rpt_cmn_account_line_calculator__profile
+msgid "profile"
+msgstr "Perfil"
+
+#. module: bt_report_commission
+#: model:ir.model.fields,field_description:bt_report_commission.field_bt_commission_wizard__type
+msgid "type"
+msgstr "Tipo"
