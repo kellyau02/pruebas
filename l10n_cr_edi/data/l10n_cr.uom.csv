@@ -1,0 +1,96 @@
+id,name,code,uom_type
+uom_alquiler_de_uso_habitacional,Alquiler de uso habitacional,Al,service
+uom_alquiler_de_uso_comercial,Alquiler de uso comercial,Alc,service
+uom_comisiones,Comisiones,Cm,service
+uom_intereses,Intereses,I,service
+uom_otro_tipo_de_servicio,Otro tipo de servicio,Os,service
+uom_servicios_profesionales,Servicios Profesionales,Sp,service
+uom_servicios_personales,Servicios Personales,Spe,service
+uom_servicios_tecnicos,Servicios técnicos,St,service
+uom_uno_(indice_de_refraccion),Uno (índice de refracción),1,product
+uom_minuto_serv,Minuto,´,service
+uom_segundo_serv,segundo,´´,service
+uom_grado_celsius,grado Celsius,°C,product
+uom_1_por_metro,1 por metro,1/m,product
+uom_ampere,Ampere,A,product
+uom_ampere_por_metro,Ampere por metro,A/m,product
+uom_ampere_por_metro_cuadrado,Ampere por metro cuadrado,A/m²,product
+uom_bel,Bel,B,product
+uom_becquerel,Becquerel,Bq,product
+uom_coulomb,Coulomb,C,product
+uom_coulomb_por_kilogramo,Coulomb por kilogramo,C/kg,product
+uom_coulomb_por_metro_cuadrado,Coulomb por metro cuadrado,C/m²,product
+uom_coulomb_por_metro_cubico,Coulomb por metro cúbico,C/m³,product
+uom_candela,Candela,cd,product
+uom_candela_por_metro_cuadrado,Candela por metro cuadrado,cd/m²,product
+uom_centimetro,Centímetro,cm,product
+uom_dia,Día,d,service
+uom_electronvolt,Electronvolt,eV,product
+uom_farad,Farad,F,product
+uom_farad_por_metro,Farad por metro,F/m,product
+uom_gramo,Gramo,g,product
+uom_galon,Galón,Gal,product
+uom_gray,Gray,Gy,product
+uom_gray_por_segundo,Gray por segundo,Gy/s,product
+uom_henry,Henry,H,product
+uom_hora,Hora,h,service
+uom_henry_por_metro,Henry por metro,H/m,product
+uom_hertz,Hertz,Hz,product
+uom_joule,Joule,J,product
+uom_joule_por_kilogramo_kelvin,Joule por kilogramo kelvin,J/(kg·K),product
+uom_joule_por_mol_kelvin,Joule por mol Kelvin,J/(mol·K),product
+uom_joule_por_kelvin,Joule por kelvin,J/K,product
+uom_joule_por_kilogramo,Joule por kilogramo,J/kg,product
+uom_joule_por_metro_cubico,Joule por metro cúbico,J/m³,product
+uom_joule_por_mol,Joule por mol,J/mol,product
+uom_kelvin,Kelvin,K,product
+uom_katal,Katal,kat,product
+uom_katal_por_metro_cubico,Katal por metro cúbico,kat/m³,product
+uom_kilogramo,Kilogramo,kg,product
+uom_kilogramo_por_metro_cubico,Kilogramo por metro cúbico,kg/m³,product
+uom_kilometro,Kilómetro,Km,product
+uom_kilovatios,Kilovatios,Kw,product
+uom_litro,Litro,L,product
+uom_lumen,Lumen,lm,product
+uom_pulgada,Pulgada,ln,product
+uom_lux,Lux,lx,product
+uom_metro,Metro,m,product
+uom_metro_por_segundo,Metro por segundo,m/s,product
+uom_metro_por_segundo_cuadrado,Metro por segundo cuadrado,m/s²,product
+uom_metro_cuadrado,Metro cuadrado,m²,product
+uom_metro_cubico,Metro cúbico,m³,product
+uom_minuto,Minuto,min,product
+uom_mililitro,Mililitro,mL,product
+uom_milimetro,Milímetro,mm,product
+uom_mol,Mol,mol,product
+uom_mol_por_metro_cubico,Mol por metro cúbico,mol/m³,product
+uom_newton,Newton,N,product
+uom_newton_por_metro,Newton por metro,N/m,product
+uom_newton_metro,Newton metro,N·m,product
+uom_neper,Neper,Np,product
+uom_grado,Grado,º,product
+uom_onzas,Onzas,Oz,product
+uom_pascal,Pascal,Pa,product
+uom_pascal_segundo,Pascal segundo,Pa·s,product
+uom_radian,Radián,rad,product
+uom_radian_por_segundo,Radián por segundo,rad/s,product
+uom_radian_por_segundo_cuadrado,Radián por segundo cuadrado,rad/s²,product
+uom_segundo,Segundo,s,product
+uom_siemens,Siemens,S,product
+uom_estereorradian,Estereorradián,sr,product
+uom_sievert,Sievert,Sv,product
+uom_tesla,Tesla,T,product
+uom_tonelada,Tonelada,t,product
+uom_unidad_de_masa_atomica_unificada,Unidad de masa atómica unificada,u,product
+uom_unidad_astronomica,Unidad astronómica,ua,product
+uom_unidad,Unidad,Unid,product
+uom_volt,Volt,V,product
+uom_volt_por_metro,Volt por metro,V/m,product
+uom_watt,Watt,W,product
+uom_watt_por_metro_kevin,Watt por metro kevin,W/(m·K),product
+uom_watt_por_metro_cuadrado_estereorradian,Watt por metro cuadrado estereorradián,W/(m²·sr),product
+uom_watt_por_metro_cuadrado,Watt por metro cuadrado,W/m²,product
+uom_watt_por_estereorradian,Watt por estereorradián,W/sr,product
+uom_weber,Weber,Wb,product
+uom_ohm,Ohm,Ω,product
+uom_otros,Se debe indicar la descripción de la medida a utilizar,Otros,other

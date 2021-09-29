@@ -1,0 +1,1979 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_cr_edi
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-11 01:34+0000\n"
+"PO-Revision-Date: 2021-08-24 05:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "<b>Claim Number:</b>"
+msgstr "<b>Número de reclamo:</b>"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "<b>Global Location Number (GLN):</b>"
+msgstr "<b>número de Ubicación Global (GLN):</b>"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "<b>Order Date:</b>"
+msgstr "<b>Fecha de la Orden de Compra:</b>"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "<b>Order Number:</b>"
+msgstr "<b>Número de la Orden de Compra:</b>"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "<b>Receipt Document Number:</b>"
+msgstr "<b>Número del Documento de Recepción:</b>"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "<b>Vendor Number:</b>"
+msgstr "<b>Código del proveedor:</b>"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_partner__l10n_cr_edi_addenda
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_users__l10n_cr_edi_addenda
+msgid "A view representing the addenda"
+msgstr "Una vista que representa el complemento"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "AHC-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sat_status__accepted
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_state_customer__1
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_state_treas__1
+msgid "Accepted"
+msgstr "Aceptado"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__active
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.act_window,name:l10n_cr_edi.action_l10n_cr_edi_addenda
+#: model:ir.model,name:l10n_cr_edi.l10n_cr_edi_wizard_addenda
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__l10n_cr_edi_addenda
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_users__l10n_cr_edi_addenda
+#: model:ir.model.fields,field_description:l10n_cr_edi.invoice_l10n_cr_edi_field
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.l10n_cr_edi_addenda_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_res_partner_inherit
+msgid "Addenda"
+msgstr "Complemento"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_config_settings__l10n_cr_edi_addenda_gs1
+msgid "Addenda Retail Committee Standard of GS1"
+msgstr "Complemento Estándar del Comité de Retail"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid "Addenda has been added in the XML with success"
+msgstr "El complemento se ha agregado en el XML con éxito"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_country_state_canton_district__name
+msgid "Administrative divisions of a Canton. Used also for CR eInvoicing."
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__name
+msgid "Administrative divisions of a district. Used also for CR eInvoicing."
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_country_state_canton__name
+msgid "Administrative divisions of a state. Used also for CR eInvoicing."
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.l10n_cr_edi_wizard_addenda_claim_number
+msgid "Alphanumeric Clame Number. Up to 10 digits"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.l10n_cr_edi_wizard_addenda_order_number
+#: model:ir.model.fields,help:l10n_cr_edi.l10n_cr_edi_wizard_addenda_receipt_number
+msgid "Alphanumeric Purchase order. Up to 50 digits"
+msgstr "Orden de compra alfanumérico. Código de hasta 50 dígitos"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.l10n_cr_edi_wizard_addenda_vendor_number
+msgid "Alphanumeric provider code. Up to 50 digits."
+msgstr "Código de proveedor alfanumérico. Código de hasta 50 dígitos"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_type__01
+msgid "Anula documento electrónico"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_client_api_key
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_config_settings__l10n_cr_edi_client_api_key
+msgid "Api Key"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__03
+msgid "Autorizadas por ley especial"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_tax_condition__03
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_tax_condition__03
+msgid "Bienes de Capital"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_config_settings__l10n_cr_edi_test_env
+msgid "CR PAC test environment"
+msgstr "Ambiente de pruebas"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__l10n_cr_edi_code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_uom_uom__l10n_cr_edi_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_tax__l10n_cr_edi_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_uom_uom__l10n_cr_edi_code
+msgid "CR eInvoicing code"
+msgstr "Código para facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__l10n_cr_edi_exempt
+msgid "CR eInvoicing exempt"
+msgstr "Exento en facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__l10n_cr_edi_original_amount
+msgid "CR eInvoicing original amount"
+msgstr "Porcentaje original para facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__l10n_cr_edi_iva_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_tax__l10n_cr_edi_iva_code
+msgid "CR eInvoicing rate tax IVA"
+msgstr "Tasa de impuesto IVA"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_res_country_state_canton
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__l10n_cr_edi_canton_id
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_company_form_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_country_state_canton_form
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_res_partner_inherit
+msgid "Canton"
+msgstr "Cantón"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__code
+msgid "Canton Code"
+msgstr "Código de cantón"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__name
+msgid "Canton Name"
+msgstr "Nombre de cantón"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.act_window,name:l10n_cr_edi.action_country_state_canton
+#: model:ir.ui.menu,name:l10n_cr_edi.menu_res_country_state_canton
+msgid "Cantons"
+msgstr "Cantones"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__01
+msgid "Cash"
+msgstr "Efectivo"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_payment_method__01
+msgid "Cash / It is not known"
+msgstr "Efectivo / No se sabe"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.l10n_cr_edi_wizard_addenda_claim_number
+msgid "Claim Number"
+msgstr "Número de Reclamo"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_payment_method__03
+msgid "Check"
+msgstr "Revisión"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_payment_method__03
+msgid "Cheque"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__code
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_uom__code
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_edi_payment_method__code
+msgid ""
+"Code defined by the DGT by this payment way. This value will be set in the "
+"XML node \"MedioPago\"."
+msgstr ""
+"Código definido por DGT para este método de pago.El valor debe ser agregado "
+"en el XML como \"MedioPago\"."
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "Colons"
+msgstr "Colones"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_l10n_cr_account_invoice_economic_activity
+msgid "Company Economic Activity"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__01
+msgid "Compras autorizadas"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__03
+msgid "Consignment"
+msgstr "Consignación"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_presentation_position__2
+msgid "Contingencia"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__06
+msgid "Contrato"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_type__02
+msgid "Corrige monto"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_vat_type__01
+msgid "Costarican citicen ID"
+msgstr "Cédula física"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__create_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__create_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__create_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__create_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__create_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__create_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__create_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__create_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__create_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__create_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__02
+msgid "Credit"
+msgstr "Haber"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_currency_rate
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_currency_rate
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_currency_rate
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_currency_rate
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_currency_rate
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_currency_rate
+msgid "Currency rate for invoicing in CR"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_state_customer
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_state_customer
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_state_customer
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_state_customer
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_state_customer
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_state_customer
+msgid "Customer acknowledgment"
+msgstr "Respuesta del cliente"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_vat_type__03
+msgid "DIMEX"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_tax_exemption__exempt_datetime
+msgid "Date and time of issue"
+msgstr "Fecha y hora de emisión"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__code
+msgid "Discrict Code"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__05
+msgid "Dispatch note"
+msgstr "Nota de despacho"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_edi_format__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_mail_template__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_res_country_state_canton_district
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__district_id
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_company_form_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_country_state_canton_district_form
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_res_partner_inherit
+msgid "District"
+msgstr "Distrito"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__name
+msgid "District Name"
+msgstr "Nombre de distrito"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.act_window,name:l10n_cr_edi.action_country_state_canton_district
+#: model:ir.ui.menu,name:l10n_cr_edi.menu_res_country_state_canton_district
+msgid "Districts"
+msgstr "Distritos"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__01
+msgid "Documento electrónico"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.report_invoice_document_inherit
+msgid ""
+"Documento emitido conforme lo establecido en la resolución de Factura "
+"Electrónica, N° DGT-R-48-2016 del siete de octubre de dos mil dieciséis de "
+"la Dirección General de Tributación."
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_account_edi_format
+msgid "EDI format"
+msgstr "Formato EDI"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_economic_activity_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_economic_activity_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_economic_activity_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_economic_activity_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_economic_activity_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_economic_activity_id
+#: model:ir.ui.menu,name:l10n_cr_edi.menu_res_economic_activity
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_company_form_inherit
+msgid "Economic Activity"
+msgstr "Actividad económica"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.act_window,name:l10n_cr_edi.action_economic_activity
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_economic_activity_form
+msgid "Economic activity"
+msgstr "Actividad económica"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "Economic activity of company"
+msgstr "Actividad económica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_document_type__01
+msgid "Electronic Invoice"
+msgstr "Factura electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__14
+msgid "Electronic Invoice provided by taxpayer of the Simplified Tax Regime"
+msgstr "Comprobante aportado por contribuyente del Régimen de Tributación Simplificado"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_document_type__08
+msgid "Electronic Purchase Invoice"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_document_type__04
+msgid "Electronic Ticket"
+msgstr "Tiquete electrónico"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__03
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_type__03
+msgid "Electronic credit note"
+msgstr "Nota de crédito electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_document_type__02
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__02
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_type__02
+msgid "Electronic debit note"
+msgstr "Nota de débito electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__01
+msgid "Electronic document"
+msgstr "Factura Electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_type__01
+msgid "Electronic invoice"
+msgstr "Factura electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_document_type__09
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_type__09
+msgid "Electronic invoice for export"
+msgstr "Factura electrónica de exportación"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid "Electronic invoice generated for the %s document."
+msgstr "Factura electrónica generada para el documento %s"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__08
+msgid "Electronic invoice issued in contingency"
+msgstr "Comprobante emitido en contingencia"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.res_config_settings_view_form
+msgid "Electronic invoicing (CR)"
+msgstr "Facturación Electrónica"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "Electronic message confirmation generated for the %s document."
+msgstr "Confirmación de Factura Electrónica generado para el documento %s"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_type__08
+msgid "Electronic purchase invoice"
+msgstr "Facturación Electrónica de Compra"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__04
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_type__04
+msgid "Electronic ticket"
+msgstr "Tiquete electrónico"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_mail_template
+msgid "Email Templates"
+msgstr "Plantillas de correo electrónico"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_emission_datetime
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_emission_datetime
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_emission_datetime
+msgid "Emission date & time"
+msgstr "Fecha y hora de emisión"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_company__l10n_cr_edi_test_env
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_config_settings__l10n_cr_edi_test_env
+msgid "Enable when the certificate environment is test"
+msgstr "Habilitar entorno de prueba"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_test_env
+msgid "Environment"
+msgstr "Entorno"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "Error during the process: %s"
+msgstr "Error durante el proceso: %s"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__04
+msgid "Exenciones emitidas por la D.G. de Hacienda"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_return_message
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_return_message
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_return_message
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_return_message
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_return_message
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_return_message
+msgid "Explanatory message of the state"
+msgstr "Mensaje descriptivo de estado"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "FE-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "FEC-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "FEE-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid "Failure during the generation of the XML:"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__fiscal_position_id
+msgid "Fiscal Position"
+msgstr "Posición Fiscal"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_cfdi_request
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_cfdi_request
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_cfdi_request
+msgid "Flag indicating a EDI should be generated for this journal entry."
+msgstr "Indica si un EDI debe ser generado para esta entrada de diario."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_vat_type__xx
+msgid "Foreigner"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid ""
+"GLN stands for Global Location Number. It's a number that identifies the "
+"physical location of a company, and thus identifies the company itself."
+msgstr ""
+"GLN son las siglas de Global Location Number (Número de Ubicación Global). Es un número que identifica la "
+"ubicación física de una empresa, y así identificala."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.l10n_cr_edi_wizard_addenda_gln
+msgid "GLN stands for Global Location Number. Up to 13 digits"
+msgstr "GLN son las siglas de Global Location Number (Número de Ubicación Global). Código de hasta 13 dígitos"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_tax_condition__04
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_tax_condition__04
+msgid "Gasto corriente no genera crédito"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_tax_condition__02
+msgid "Genera Crédito parcial del IVA"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_tax_condition__01
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_tax_condition__01
+msgid "Genera crédito IVA"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.l10n_cr_edi_wizard_addenda_gln
+msgid "Global Location Number (GLN)"
+msgstr "GLN son las siglas de Global Location Number (Número de Ubicación Global)."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_edi_format__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move_line__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_mail_template__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_uom_uom__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_vat_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__l10n_cr_edi_vat_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_users__l10n_cr_edi_vat_type
+msgid "ID type"
+msgstr "Tipo de ID"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_company__l10n_cr_edi_vat_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_partner__l10n_cr_edi_vat_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_users__l10n_cr_edi_vat_type
+msgid "ID type for CR eInvoicing."
+msgstr "Tipo de identificación para facturación electrónica."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__07
+msgid "IVA (cálculo especial)"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:account.tax.group,name:l10n_cr_edi.tax_group_iva_4_returned
+msgid "IVA 4% returned"
+msgstr "IVA 4% devuelto"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__08
+msgid "IVA Régimen de Bienes Usados (Factor)"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_ir_ui_view__l10n_cr_edi_addenda_flag
+msgid "If True, the view is an addenda for the Costarican EDI invoicing."
+msgstr "Si se encuentra marcado, la vista es un complemento para la facturación electrónica de Costa Rica."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid ""
+"If one address field is set, the full address is required. Please check the "
+"partner's address."
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_edi_payment_method__active
+msgid "If this payment way is not used by the company could be deactivated."
+msgstr ""
+"Si este medio de pago no es utilizado por la empresa se puede desactivar."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__12
+msgid "Impuesto Específico al Cemento"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__05
+msgid ""
+"Impuesto Específico sobre las bebidas envasadas sin contenido alcohólico y "
+"jabones de tocador"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__02
+msgid "Impuesto Selectivo de Consumo"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__06
+msgid "Impuesto a los Productos de Tabaco"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__01
+msgid "Impuesto al Valor Agregado"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__04
+msgid "Impuesto específico de Bebidas Alcohólicas"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__03
+msgid "Impuesto Único a los combustibles"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_partner__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_users__l10n_cr_edi_payment_method_id
+msgid ""
+"Indicates the way the invoice was/will be paid, where the options could be: "
+"Cash, Credit Card, Nominal Check etc. If unknown, please use cash."
+msgstr ""
+"Indica la forma en que se pagó o pagará la factura, donde las opciones "
+"podrían ser:Efectivo, tarjeta de crédito o débito, cheque, etc. Si no lo "
+"conoce, por favor utilice Efectivo."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid "Invalid configuration:"
+msgstr ""
+
+#. module: l10n_cr_edi
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_ir_ui_view__l10n_cr_edi_addenda_flag
+msgid "Is an addenda?"
+msgstr "¿Es un complemento?"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_bool
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_bool
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_bool
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_bool
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_bool
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_bool
+msgid "Is eInvoice?"
+msgstr "Es factura electrónica?"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "It is the alphanumeric Purchase order."
+msgstr "Es el Número de la Orden de Compra alfanumérico."
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "It is the alphanumeric claim number."
+msgstr "Es el Número de reclamo para las Notas de Crédito."
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid ""
+"It is the alphanumeric provider code established in the purchase order."
+msgstr "Es el código de proveedor alfanumérico establecido en la orden de compra."
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "It is the alphanumeric receipt number."
+msgstr "Es el Número del Documento de Recepción alfanumérico."
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_rel_document_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_rel_document_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_rel_document_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_rel_document_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_rel_document_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_rel_document_type
+msgid "Journal document type"
+msgstr "Tipo de documento electrónico"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.report_invoice_document_inherit
+msgid "Key:"
+msgstr "Clave electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_canton_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__l10n_cr_edi_canton_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_users__l10n_cr_edi_canton_id
+msgid "L10N Cr Edi Canton"
+msgstr "Cantón L10N CR EDI"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_district_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__l10n_cr_edi_district_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_users__l10n_cr_edi_district_id
+msgid "L10N Cr Edi District"
+msgstr "Distrito L10N CR EDI"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_economic_activity_ids
+msgid "L10N Cr Edi Economic Activity"
+msgstr "Actividad económica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_neighborhood_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__l10n_cr_edi_neighborhood_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_users__l10n_cr_edi_neighborhood_id
+msgid "L10N Cr Edi Neighborhood"
+msgstr "Barrios L10N CR EDI"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_sat_status
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_sat_status
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_sat_status
+msgid "L10N Cr Edi Sat Status"
+msgstr "Estado DGT"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_edi_format____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_mail_template____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_template____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner____last_update
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_uom_uom____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__write_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__write_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__write_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__write_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__write_uid
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__write_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__write_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__write_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__write_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district__write_date
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__06
+msgid "Lease in financial function"
+msgstr "Arrendamiento en función financiera"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__05
+msgid "Lease with purchase option"
+msgstr "Arrendamiento con opción de compra"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_vat_type__02
+msgid "Legal entity"
+msgstr "Cédula Jurídica"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "NC-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "ND-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__res_partner__l10n_cr_edi_vat_type__04
+msgid "NITE"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_edi_payment_method__name
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__name
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_uom__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_res_country_state_canton_district_neighborhood
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_company_form_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_country_state_canton_district_neighborhood_form
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_res_partner_inherit
+msgid "Neighborhood"
+msgstr "Barrio"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__code
+msgid "Neighborhood Code"
+msgstr "Código de barrio"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__name
+msgid "Neighborhood Name"
+msgstr "Nombre de barrio"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.act_window,name:l10n_cr_edi.action_country_state_canton_district_neighborhood
+#: model:ir.ui.menu,name:l10n_cr_edi.menu_res_country_state_canton_district_neighborhood
+msgid "Neighborhoods"
+msgstr "Barrios"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid "No PAC credentials specified."
+msgstr "No se especificaron credenciales de para el servicio de Facturación."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_presentation_position__1
+msgid "Normal"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sat_status__signed
+msgid "Not Synced Yet"
+msgstr "No sincronizado"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid ""
+"Notification!.\n"
+" You must select the type of response for the loaded file."
+msgstr ""
+"¡Notificación!.\n"
+" Debe seleccionar el tipo de respuesta para el archivo cargado."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid ""
+"Notification!.\n"
+"Please configure the purchase journal, add terminal and location."
+msgstr ""
+"¡Notificación!.\n"
+"Por favor configure el diario de compra, añada su sucursal y terminal."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_attempts
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_attempts
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_attempts
+msgid "Number of Attempts"
+msgstr "Número de intentos"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_attempts
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_attempts
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_attempts
+msgid "Number of attempts"
+msgstr "Número de intentos"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_cfdi_request__on_refund
+msgid "On Credit Note"
+msgstr "En Nota de Crédito"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_cfdi_request__on_invoice
+msgid "On Invoice"
+msgstr "En Factura"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_edi_payment_method__fiscal_position_id
+msgid ""
+"Optional fiscal position to compute payment methods account tax mapping. "
+"Should usually be used to Medical Services fiscal position. If not set, no "
+"general account mapping will be configured for l10n_cr_edi fiscal positions."
+msgstr ""
+"Posición fiscal opcional para calcular el mapeo Fiscal de cuentas desde el "
+"métodos de pago. Por lo general, se utiliza para la posición fiscal de "
+"Servicios médicos. Si no se establece, no se ralizará ningún mapeo de "
+"cuentas para posiciones fiscales en la Facturación Electrónica para CR"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.l10n_cr_edi_wizard_addenda_order_date
+msgid "Order Date"
+msgstr "Fecha de la Orden de Compra"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.l10n_cr_edi_wizard_addenda_order_number
+msgid "Order Number"
+msgstr "Número de Orden de Compra"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__l10n_cr_uom__uom_type__other
+msgid "Other"
+msgstr "Otro"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__99
+msgid "Other type of document"
+msgstr "Otro tipo de documento"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__99
+msgid "Others"
+msgstr "Otros"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_type__99
+msgid "Otro tipo de referencia"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_code__98
+msgid "Otros"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_state_customer__2
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_state_treas__2
+msgid "Parcially accepted"
+msgstr "Aceptado parcialmente"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_l10n_cr_edi_payment_method
+msgid "Payment Method for Costa Rica from DGT Data"
+msgstr "Medios de Pago para Costa Rica de los catalogos de DGT"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.act_window,name:l10n_cr_edi.action_l10n_cr_payment_method
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_l10n_cr_payment_method_form
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_l10n_cr_payment_method_tree
+msgid "Payment Way"
+msgstr "Medio de Pago"
+
+#. module: l10n_cr_edi
+#: model:ir.ui.menu,name:l10n_cr_edi.dgt_43_medios_pago
+msgid "Payment Way Codes (CR)"
+msgstr "Códigos de los Medios de Pago (CR)"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_payment_method_id
+msgid "Payment method"
+msgstr "Medio de pago"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__07
+msgid "Payment to a third party"
+msgstr "Cobro a favor de un tercero"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_edi_payment_method__name
+msgid "Payment way, is found in the DGT catalog."
+msgstr "El medio de pago, se puede encontrar en el catálogo de la DGT."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__07
+msgid "Procedure"
+msgstr "Procedimiento"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__l10n_cr_uom__uom_type__product
+msgid "Product"
+msgstr "Producto"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Unidad de medida del producto"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_tax_condition__05
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_tax_condition__05
+msgid "Proporcionalidad"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_purchase_export_einvoice
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_purchase_export_einvoice
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_purchase_export_einvoice
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_purchase_export_einvoice
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_purchase_export_einvoice
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_purchase_export_einvoice
+msgid "Purchase or Export einvoice"
+msgstr "Factura Electrónica de compra o exportación"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.wizard_gs1_order_date
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_gs1_view
+msgid "Purchase order date in YYYYMMDD format."
+msgstr "Fecha de la orden de compra en formato YYYYMMDD."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.wizard_gs1_receipt_number
+msgid "Receipt Document Number"
+msgstr "Número el Documento de Recepción"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_type__04
+msgid "Referencia a otro documento"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_emission_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_emission_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_emission_datetime
+msgid ""
+"Refers to the date and time of emission of the invoice inside the DGT "
+"system."
+msgstr "Fecha y hora de emisión para la factura ante la DGT."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_sat_status
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_sat_status
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_sat_status
+msgid "Refers to the status of the invoice inside the SAT system."
+msgstr "Estado de la factura en Hacienda."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "Refund"
+msgstr "Factura rectificativa"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sat_status__rejected
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_state_customer__3
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_state_treas__3
+msgid "Rejected"
+msgstr "Rechazada"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__15
+msgid "Replace an Electronic Purchase Invoice"
+msgstr "Sustituye una Factura electrónica de Compra"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__12
+msgid "Replaces Electronic Export Invoice"
+msgstr "Sustituye Factura de exportación"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__10
+msgid "Replaces Electronic invoice rejected by DGT"
+msgstr "Sustituye factura rechazada por el Ministerio de Hacienda"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__11
+msgid "Replaces the rejected Electronic invoice by the Receiver"
+msgstr "Sustituye factura rechazada por el Receptor del comprobante"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_cfdi_request
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_cfdi_request
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_cfdi_request
+msgid "Request a EDI"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "Retry"
+msgstr "Reintentar"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_return_code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_return_code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_return_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_return_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_return_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_return_code
+msgid "Return code"
+msgstr "Código de retorno"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__09
+msgid "Return merchandise"
+msgstr "Devolución mercadería"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_security_code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_security_code
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_security_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_security_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_security_code
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_security_code
+msgid "Security_code"
+msgstr "Código de seguridad"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_type
+msgid "Select if this document refers to another document."
+msgstr "Seleccionar si este documento hace referencia a otro documento."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_doc
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_doc
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_doc
+msgid "Select the reference document type."
+msgstr "Seleccione el tipo de documento al cual se hace referencia."
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "Send XML"
+msgstr "Enviar respuesta"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/res_partner.py:0
+#: code:addons/l10n_cr_edi/models/res_partner.py:0
+#, python-format
+msgid "Server Error."
+msgstr "Error de servidor"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__l10n_cr_uom__uom_type__service
+msgid "Service"
+msgstr "Servicio"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__09
+msgid "Service payments provided to the State"
+msgstr "Servicios prestados al Estado"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__08
+msgid "Services provided to the State on credit"
+msgstr "Servicios prestados al Estado a crédito"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "Set Values"
+msgstr "Establecer Valores"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.server,name:l10n_cr_edi.set_l10n_cr_edi_addenda_values
+msgid "Set Values Addenda"
+msgstr "Establecer valores para el complemento"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sale_condition__04
+msgid "Set aside"
+msgstr "Apartado"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.server,name:l10n_cr_edi.action_addenda_defaults
+msgid "Set default values for the addenda"
+msgstr "Establecer valores por defecto para el complemento"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_tax__l10n_cr_edi_exempt
+msgid "Set if this tax is fully or partially exempt for CR eInvoicing."
+msgstr ""
+"Marque si este impuesto se utiliza para exoneración total o parcial de "
+"clientes en facturación electrónica."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_presentation_position__3
+msgid "Sin Internet"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_country_state_canton__state_id
+msgid "State"
+msgstr "Provincia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_journal__l10n_cr_edi_tax_condition__none
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sat_status__none
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_tax_condition__none
+msgid "State not defined"
+msgstr "Estado no definido"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_type__05
+msgid "Sustituye comprobante provisional de contingencia"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "TE-%s.xml"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__01
+msgid "Tarifa 0% (Exento)"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__08
+msgid "Tarifa general 13%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__02
+msgid "Tarifa reducida 1%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__03
+msgid "Tarifa reducida 2%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__04
+msgid "Tarifa reducida 4%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_product__l10n_cr_edi_tariff_heading
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_template__l10n_cr_edi_tariff_heading
+#: model:ir.model.fields,help:l10n_cr_edi.field_product_product__l10n_cr_edi_tariff_heading
+#: model:ir.model.fields,help:l10n_cr_edi.field_product_template__l10n_cr_edi_tariff_heading
+msgid "Tariff heading"
+msgstr "Partida arancelaria"
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/res_partner.py:0
+#, python-format
+msgid ""
+"The ID number was not found in the Hacienda database. Please enter a valid "
+"number."
+msgstr ""
+"El número de identificación no se encuentra en la base de datos de Hacienda."
+" Por favor ingrese un número válido."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid ""
+"The XML document was successfully created and signed by the government."
+msgstr "El documento XML fue creado y firmado correctamente."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid ""
+"The XML for message confirmation was successfully received from the "
+"government."
+msgstr ""
+"El XML de confirmación para la Factura Electrónica se recibió correctamente de "
+"la DGT."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_account_invoice_economic_activity__code
+msgid "The activity code"
+msgstr "Código de actividad"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_country_state_canton__code
+msgid "The canton code."
+msgstr "El código de cantón."
+
+#. module: l10n_cr_edi
+#: model:ir.model.constraint,message:l10n_cr_edi.constraint_res_country_state_canton_name_code_uniq
+msgid "The code of the canton must be unique by state!"
+msgstr "El código de cantón debe ser único por provincia."
+
+#. module: l10n_cr_edi
+#: model:ir.model.constraint,message:l10n_cr_edi.constraint_res_country_state_canton_district_name_code_uniq
+msgid "The code of the district must be unique by canton!"
+msgstr "El código de distrito debe ser único por cantón."
+
+#. module: l10n_cr_edi
+#: model:ir.model.constraint,message:l10n_cr_edi.constraint_l10n_cr_account_invoice_economic_activity_name_code_uniq
+msgid "The code of the economic activity must be unique!"
+msgstr "El código de actividad económica debe ser único."
+
+#. module: l10n_cr_edi
+#: model:ir.model.constraint,message:l10n_cr_edi.constraint_res_country_state_canton_district_neighborhood_name_code_uniq
+msgid "The code of the neighborhood must be unique by district!"
+msgstr "El código de barrio debe ser único por distrito."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_country_state_canton_district__code
+msgid "The district code."
+msgstr "El código de distrito."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid ""
+"The eInvoicing document type is required. Please check your journal "
+"settings."
+msgstr ""
+"El tipo de documento electrónico es requerido. Por favor verifique la "
+"configuración del diario."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_tax.py:0
+#, python-format
+msgid ""
+"The exemptions are allow just for IVA - Tax Code 1. Please check your tax "
+"configuration. You are using Tax code "
+msgstr ""
+"Las exoneraciones se permiten solo para IVA - Código de impuestos 1. Verifique su configuración de impuestos. "
+"El código de impuesto actual es "
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.wizard_addenda_view
+msgid "The necessary nodes for the implementation of the Addenda are:"
+msgstr ""
+"Los nodos necesarios para la implementación del complemento Estándar del Comité de Retail "
+"de GS1 son:"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_country_state_canton_district_neighborhood__code
+msgid "The neighborhood code."
+msgstr "El código de barrio."
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.res_config_settings_view_form
+msgid "The parameters to configure the CR PAC."
+msgstr "Los parámetros para configurarción en PAC."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid "The product must have a tariff heading in Invoices for export"
+msgstr ""
+"El producto debe tener una partida arancelaria para las Facturas de "
+"exportación."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_tax__l10n_cr_edi_original_amount
+msgid ""
+"This is the original percertage for the tax before exemption. It is used for"
+" CR eInvoicing."
+msgstr ""
+"Este es el porcentaje original de impuesto antes de exoneración. Es "
+"utilizado para facturación electrónica."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_company__l10n_cr_edi_tradename
+#: model:ir.model.fields,help:l10n_cr_edi.field_res_company__l10n_cr_edi_tradename
+msgid "Tradename"
+msgstr "Nombre comercial"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__05
+msgid "Transitorio 0%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__06
+msgid "Transitorio 4%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_tax__l10n_cr_edi_iva_code__07
+msgid "Transitorio 8%"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__06
+msgid "Transitorio IX"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__05
+msgid "Transitorio V"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__07
+msgid "Transitorio XVII"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_state_treas
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_state_treas
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_state_treas
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_state_treas
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_state_treas
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_state_treas
+msgid "Treasury acknowledgment"
+msgstr "Respuesta de Hacienda"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.field_l10n_cr_uom__uom_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/res_partner.py:0
+#, python-format
+msgid "Unauthorized."
+msgstr "No autorizado."
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_l10n_cr_uom
+msgid "Unit of measure for einvoice"
+msgstr "Unidad de Medida para FE CR"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_product__l10n_cr_edi_uom_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_product_template__l10n_cr_edi_uom_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_product_product__l10n_cr_edi_uom_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_product_template__l10n_cr_edi_uom_id
+msgid "Unit of measure for invoicing in CR."
+msgstr "Unidad de Medida para FE CR"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_l10n_cr_uom__uom_type
+msgid "Uom Type"
+msgstr "Tipo de unidad de medida"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.server,name:l10n_cr_edi.model_account_invoice_action_share
+msgid "Update emission datetime"
+msgstr "Actualizar Fecha de emisión"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,help:l10n_cr_edi.invoice_l10n_cr_edi_field
+msgid ""
+"Used to concatenate fields x_vendor_number, x_order_number, x_gln, "
+"x_order_date, x_receipt_number and x_claim_number"
+msgstr ""
+"Se utiliza para concatenar campos x_vendor_number, x_order_number, x_gln, "
+"x_order_date, x_receipt_number y x_claim_number"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_edi_format.py:0
+#, python-format
+msgid ""
+"VAT type is required when a VAT is set... Please check the partner's vat "
+"type."
+msgstr ""
+"El tipo de cédula es obligatorio cuando se establece un número de cédula. "
+"Por favor verifique el tipo de cédula del cliente."
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.l10n_cr_edi_wizard_addenda_vendor_number
+msgid "Vendor Number"
+msgstr "Número de Proveedor"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_exempt_type__02
+msgid "Ventas excentas a diplomáticos"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model,name:l10n_cr_edi.model_ir_ui_view
+msgid "View"
+msgstr "Vista"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_sat_status__not_signed
+msgid "Waiting for answer"
+msgstr "Esperando respuesta"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/res_partner.py:0
+#, python-format
+msgid "Warning for %s"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "You need to define an 'CABYS code' on the following products: %s"
+msgstr "Es necesario definir un 'Código CABYS' en los siguientes productos: %s"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "You need to define an 'Economic activity' on the invoice."
+msgstr "Es necesario definir una 'Actividad económica' en la factura."
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "You need to define an 'UoM eInvoicing' on the following products: %s"
+msgstr "Es necesario definir una 'UdM de facturación' en los siguientes productos: %s"
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "You need to define an 'eInvoicing code' on the following taxes: %s"
+msgstr "Es necesario definir un 'Código de facturación' en los siguientes impuestos: %s"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_consecutive_number_receiver
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_consecutive_number_receiver
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_consecutive_number_receiver
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_consecutive_number_receiver
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_consecutive_number_receiver
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_consecutive_number_receiver
+msgid "consecutive_number_receiver"
+msgstr "Consecutivo número receptor"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_customer_filename
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_customer_filename
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_customer_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_customer_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_customer_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_customer_filename
+msgid "eInvoice Customer ack. Filename"
+msgstr "Nombre respuesta del cliente XML"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_customer_binary
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_customer_binary
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_customer_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_customer_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_customer_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_customer_binary
+msgid "eInvoice Customer ack. XML"
+msgstr "Respuesta del cliente XML"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_full_number
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_full_number
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_full_number
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_full_number
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_full_number
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_full_number
+msgid "eInvoice Full Number"
+msgstr "Clave electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_pdf_binary
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_pdf_binary
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_pdf_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_pdf_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_pdf_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_pdf_binary
+msgid "eInvoice PDF"
+msgstr "PDF Factura Electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_pdf_filename
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_pdf_filename
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_pdf_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_pdf_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_pdf_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_pdf_filename
+msgid "eInvoice PDF Filename"
+msgstr "Nombre PDF Factura Electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_binary
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_binary
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_binary
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_binary
+msgid "eInvoice XML"
+msgstr "XML de Factura"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_filename
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_filename
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_xml_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_xml_filename
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_xml_filename
+msgid "eInvoice XML Filename"
+msgstr "Nombre Factura XML"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.report_invoice_document_inherit
+msgid "eInvoice date and time of issue:"
+msgstr "Fecha y hora de emisión de documento:"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_document_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal__l10n_cr_edi_document_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_document_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_journal__l10n_cr_edi_document_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_type
+msgid "eInvoice document type"
+msgstr "Tipo de documento electrónico"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt
+msgid "eInvoice exempt"
+msgstr "Exonerado en facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_datetime
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_datetime
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_datetime
+msgid "eInvoice exemption date and time of issue"
+msgstr "Fecha y hora de emisión del documento de exoneración"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_num
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_num
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_num
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_num
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_num
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_num
+msgid "eInvoice exemption document number"
+msgstr "Número del documento de exoneración"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_issuer
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_issuer
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_issuer
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_issuer
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_issuer
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_issuer
+msgid "eInvoice exemption issuer"
+msgstr "Emisor del documento de exoneración"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_exempt_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_exempt_type
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_exempt_type
+msgid "eInvoice exemption type"
+msgstr "Tipo de exoneración"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_location
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal__l10n_cr_edi_location
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_location
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_journal__l10n_cr_edi_location
+msgid "eInvoice location number"
+msgstr "Sucursal para facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields.selection,name:l10n_cr_edi.selection__account_move__l10n_cr_edi_ref_doc__13
+msgid "eInvoice month expired"
+msgstr "Facturación mes vencido"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_partner__l10n_cr_edi_payment_method_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_res_users__l10n_cr_edi_payment_method_id
+msgid "eInvoice payment method"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_presentation_position
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_presentation_position
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_presentation_position
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_presentation_position
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_presentation_position
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_presentation_position
+msgid "eInvoice presentation position"
+msgstr "Situación de presentación"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_reason
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_reason
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_reason
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_reason
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_reason
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_reason
+msgid "eInvoice reference Reason"
+msgstr "Razón de referencia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_reference_datetime
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_reference_datetime
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_reference_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_reference_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_reference_datetime
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_reference_datetime
+msgid "eInvoice reference date and time of issue"
+msgstr "Fecha y hora de emisión de documento de referencia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_id
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_id
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_id
+msgid "eInvoice reference document"
+msgstr "Documento de referencia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_num
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_num
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_num
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_num
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_num
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_num
+msgid "eInvoice reference document number"
+msgstr "Número de documento de referencia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_doc
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_doc
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_doc
+msgid "eInvoice reference document type"
+msgstr "Tipo de documento de referencia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_ref_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_ref_type
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_ref_type
+msgid "eInvoice reference type"
+msgstr "Tipo de referencia"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_sale_condition
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_move__l10n_cr_edi_sale_condition
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_payment__l10n_cr_edi_sale_condition
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_line__l10n_cr_edi_sale_condition
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_move__l10n_cr_edi_sale_condition
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_payment__l10n_cr_edi_sale_condition
+msgid "eInvoice sale conditions"
+msgstr "Condición de venta"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_tax_condition
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal__l10n_cr_edi_tax_condition
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_tax__l10n_cr_edi_tax_condition
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_tax_condition
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_journal__l10n_cr_edi_tax_condition
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_tax__l10n_cr_edi_tax_condition
+msgid "eInvoice tax condition"
+msgstr "Condición de impuesto"
+
+#. module: l10n_cr_edi
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_terminal
+#: model:ir.model.fields,field_description:l10n_cr_edi.field_account_journal__l10n_cr_edi_terminal
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_bank_statement_import_journal_creation__l10n_cr_edi_terminal
+#: model:ir.model.fields,help:l10n_cr_edi.field_account_journal__l10n_cr_edi_terminal
+msgid "eInvoice terminal number"
+msgstr "Terminal para Facturación Electrónica"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_journal_inherit
+msgid "eInvoicing"
+msgstr "Facturación Electrónica"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "eInvoicing exemption"
+msgstr "Exoneración en facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "eInvoicing info"
+msgstr "Información de facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "eInvoicing information"
+msgstr "Información de facturación electrónica"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "eInvoicing other charges"
+msgstr "Otros cargos"
+
+#. module: l10n_cr_edi
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi.view_account_invoice_inherit
+msgid "eInvoicing reference"
+msgstr "Referencia de factura"
+
+#. module: l10n_cr_edi
+#: model:ir.actions.server,name:l10n_cr_edi.ir_cron_l10n_cr_edi_answer_request_ir_actions_server
+#: model:ir.cron,cron_name:l10n_cr_edi.ir_cron_l10n_cr_edi_answer_request
+#: model:ir.cron,name:l10n_cr_edi.ir_cron_l10n_cr_edi_answer_request
+msgid "l10n_cr_edi: Cron answer request"
+msgstr ""
+
+#. module: l10n_cr_edi
+#: code:addons/l10n_cr_edi/models/account_invoice.py:0
+#, python-format
+msgid "with"
+msgstr "con"

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!--
+    View of the wizard itself that set the values this view need to hold all
+    the help information necessary if needed
+    -->
+   <record id="wizard_addenda_view" model="ir.ui.view">
+        <field name="name">x_l10n_cr_edi_addenda.view</field>
+        <field name="model">x_addenda.l10n_cr_edi</field>
+        <field name="arch" type="xml">
+            <form>
+                <div>
+                    <p>The necessary nodes for the implementation of the Addenda are:</p>
+                    <ul>
+                        <li><p><b>Vendor Number:</b></p>
+                            <p>It is the alphanumeric provider code established in the purchase order.</p>
+                        </li>
+                        <li><p><b>Order Number:</b></p>
+                            <p>It is the alphanumeric Purchase order.</p>
+                        </li>
+                        <li><p><b>Global Location Number (GLN):</b></p>
+                            <p>GLN stands for Global Location Number. It's a number that identifies the physical location of a company, and thus identifies the company itself.</p>
+                        </li>
+                        <li><p><b>Order Date:</b></p>
+                            <p>Purchase order date in YYYYMMDD format.</p>
+                        </li>
+                        <li><p><b>Receipt Document Number:</b></p>
+                            <p>It is the alphanumeric receipt number.</p>
+                        </li>
+                        <li><p><b>Claim Number:</b></p>
+                            <p>It is the alphanumeric claim number.</p>
+                        </li>
+                    </ul>
+                </div>
+                <group>
+                    <field name="x_vendor_number"/>
+                    <field name="x_order_number"/>
+                    <field name="x_gln"/>
+                    <field name="x_order_date"/>
+                    <field name="x_receipt_number"/>
+                    <field name="x_claim_number"/>
+                </group>
+                <footer>
+                    <button name="l10n_cr_edi.set_l10n_cr_edi_addenda_values"
+                    type="action" string="Set Values" class="btn-primary"/>
+                    <button string="Cancel" class="btn-default" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!--
+    Simple action view that is called from the invoice to open the wizard
+    After default values are set.
+    -->
+    <record id="action_l10n_cr_edi_addenda" model="ir.actions.act_window">
+        <field name="name">Addenda</field>
+        <field name="res_model">x_addenda.l10n_cr_edi</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="wizard_addenda_view"/>
+    </record>
+
+    <!--
+    Action to set default values on the wizard
+    -->
+    <record id="action_addenda_defaults" model="ir.actions.server">
+        <field name="name">Set default values for the addenda</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">
+context = {'invoice_id': record.id}
+wizard_values = record.x_l10n_cr_edi_addenda and record.x_l10n_cr_edi_addenda.split('|')
+# If the wizard has been run before, fill it with its previows values
+if wizard_values:
+    context.update({
+        'default_x_vendor_number': wizard_values[0],
+        'default_x_order_number': wizard_values[1],
+        'default_x_gln': wizard_values[2],
+        'default_x_order_date': wizard_values[3],
+        'default_x_receipt_number': wizard_values[4],
+        'default_x_claim_number': wizard_values[5],
+
+    })
+action = env.ref('l10n_cr_edi.action_l10n_cr_edi_addenda').read()[0]
+action['context'] = context
+        </field>
+    </record>
+
+    <!--
+    Put a button on the invoice itself in order to set the value for the addenda
+    -->
+    <record id="l10n_cr_edi_addenda_inherit" model="ir.ui.view">
+        <field name="name">account.move.form.addenda.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='state']" position="before">
+                <field name="l10n_cr_edi_addenda" invisible="1"/>
+                <button name="l10n_cr_edi.action_addenda_defaults" type="action"
+                    string="Addenda"
+                    context="{'invoice_id': id}"
+                    attrs="{'invisible': ['|', ('state', '!=', 'draft'), ('l10n_cr_edi_addenda', '=', False)]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

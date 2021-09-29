@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 Vauxoo -->
+
+<odoo>
+    <record id="view_company_form_inherit" model="ir.ui.view">
+        <field name="name">res.company.form.inherit</field>
+        <field name="model">res.company</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='city']" position="attributes">
+                    <attribute name="attrs">{'invisible': [('country_id','=',%(base.cr)d)]}</attribute>
+                </xpath>
+                <xpath expr="//field[@name='state_id']" position="after">
+                    <field name="l10n_cr_edi_canton_id" class="o_address_state" string="Canton" placeholder="Canton" options='{"no_open": True, "no_create": True}'
+                        attrs="{'readonly': [('parent_id', '!=', False)], 'invisible': [('country_id','!=',%(base.cr)d)]}" context="{'country_id': country_id, 'state_id': state_id, 'zip': zip}"/>
+                    <field name="l10n_cr_edi_district_id" class="o_address_state" string="District" placeholder="District" options='{"no_open": True, "no_create": True}'
+                        attrs="{'readonly': [('parent_id', '!=', False)], 'invisible': [('country_id','!=',%(base.cr)d)]}" context="{'country_id': country_id, 'state_id': state_id, 'l10n_cr_edi_canton_id': l10n_cr_edi_canton_id, 'zip': zip}"/>
+                    <field name="l10n_cr_edi_neighborhood_id" class="o_address_state" string="Neighborhood" placeholder="Neighborhood" options='{"no_open": True, "no_create": True}'
+                        attrs="{'readonly': [('parent_id', '!=', False)], 'invisible': [('country_id','!=',%(base.cr)d)]}" context="{'country_id': country_id, 'state_id': state_id, 'l10n_cr_edi_canton_id': l10n_cr_edi_canton_id, 'l10n_cr_edi_district_id': l10n_cr_edi_district_id, 'zip': zip}"/>
+                </xpath>
+                <field name="partner_id" position="after">
+                    <field name="l10n_cr_edi_tradename"/>
+                </field>
+                <field name="vat" position="before">
+                    <field name="l10n_cr_edi_vat_type"/>
+                </field>
+                <field name="currency_id" position="after">
+                    <field name="l10n_cr_edi_economic_activity_ids" widget="many2many_tags" string="Economic Activity" options='{"no_open": True, "no_create": True}'/>
+                </field>
+            </data>
+        </field>
+    </record>
+
+    <!-- l10n_cr_edi_economic_activity -->
+    <!-- -->
+    <record id="view_economic_activity_tree" model="ir.ui.view">
+        <field name="name">l10n.cr.account.invoice.economic.activity.tree</field>
+        <field name="model">l10n.cr.account.invoice.economic.activity</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_economic_activity_form" model="ir.ui.view">
+        <field name="name">account.invoice.economic.activity.form</field>
+        <field name="model">l10n.cr.account.invoice.economic.activity</field>
+        <field name="arch" type="xml">
+            <form string="Economic activity">
+                <group>
+                    <field name="name"/>
+                    <field name="code"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_economic_activity" model="ir.actions.act_window">
+        <field name="name">Economic activity</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">l10n.cr.account.invoice.economic.activity</field>
+        <field name="view_id" ref="view_economic_activity_tree"/>
+    </record>
+
+    <menuitem id="menu_res_economic_activity" parent="account.account_account_menu" sequence="10" name="Economic Activity" action="action_economic_activity" />
+
+</odoo>

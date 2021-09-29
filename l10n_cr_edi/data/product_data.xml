@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="product_category_other_charges" model="product.category">
+        <field name="name">Otros Cargos</field>
+    </record>
+    <record id="product_other_charges_parafiscal" model="product.product">
+        <field name="name">Contribución parafiscal</field>
+        <field name="default_code">01</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_cruz_roja" model="product.product">
+        <field name="name">Timbre de la Cruz Roja</field>
+        <field name="default_code">02</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_bomberos" model="product.product">
+        <field name="name">Timbre de Benemérito Cuerpo de Bomberos de Costa Rica</field>
+        <field name="default_code">03</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_tercero" model="product.product">
+        <field name="name">Cobro de un tercero</field>
+        <field name="default_code">04</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_exportacion" model="product.product">
+        <field name="name">Costos de Exportación</field>
+        <field name="default_code">05</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_service" model="product.product">
+        <field name="name">Impuesto de servicio 10%</field>
+        <field name="default_code">06</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_colegios" model="product.product">
+        <field name="name">Timbre de Colegios Profesionales</field>
+        <field name="default_code">07</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+    <record id="product_other_charges_other" model="product.product">
+        <field name="name">Otros Cargos</field>
+        <field name="default_code">99</field>
+        <field name="categ_id" ref="product_category_other_charges"/>
+        <field name="type">service</field>
+        <field name="supplier_taxes_id" eval="False"/>
+        <field name="taxes_id" eval="False"/>
+    </record>
+
+</odoo>

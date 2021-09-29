@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 Vauxoo -->
+
+<odoo>
+    <record id="view_product_inherit" model="ir.ui.view">
+        <field name="name">uom.uom.form</field>
+        <field name="model">uom.uom</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="uom.product_uom_form_view"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='rounding']" position="after">
+                    <field name="l10n_cr_edi_code"/>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <record id="product_template_form_view_l10n_cr" model="ir.ui.view">
+        <field name="name">product.template.form.view.l10n_cr</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <field name="uom_po_id" position="after">
+                <field name="l10n_cr_edi_uom_id" options="{'no_open': True, 'no_create': True}" groups="uom.group_uom"/>
+                <field name="l10n_cr_edi_tariff_heading" groups="account.group_account_manager"/>
+            </field>
+        </field>
+    </record>
+</odoo>

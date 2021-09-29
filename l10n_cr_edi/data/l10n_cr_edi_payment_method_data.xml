@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<odoo noupdate="0">
+
+    <!-- Account Tax -->
+    <record id="tax_group_iva_4_returned" model="account.tax.group">
+        <field name="name">IVA 4% returned</field>
+    </record>
+
+    <record id="account_tax_template_IVA_4" model="account.tax">
+        <field name="name">IVA 4%</field>
+        <field name="description">IVA 4%</field>
+        <field name="amount">4</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">sale</field>
+        <field name="l10n_cr_edi_code">01</field>
+        <field name="l10n_cr_edi_iva_code">04</field>
+    </record>
+
+    <record id="account_tax_IVA_4_returned" model="account.tax">
+        <field name="name">IVA 4% returned</field>
+        <field name="description">IVA 4% returned</field>
+        <field name="amount">0</field>
+        <field name="l10n_cr_edi_original_amount">4</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">sale</field>
+        <field name="l10n_cr_edi_code">01</field>
+        <field name="l10n_cr_edi_iva_code">04</field>
+        <field name="tax_group_id" ref="tax_group_iva_4_returned"/>
+    </record>
+
+    <!-- Account Fiscal position -->
+    <record id="l10n_cr_edi_account_fiscal_position_iva_4_returned" model="account.fiscal.position">
+        <field name="name">IVA 4% medical service</field>
+        <field name="auto_apply" eval="False"/>
+        <field name="country_id" ref="base.cr"/>
+    </record>
+
+    <record id="account_fiscal_position_tax_iva_4_returned" model="account.fiscal.position.tax">
+        <field name="tax_src_id" ref="account_tax_template_IVA_4"/>
+        <field name="tax_dest_id" ref="account_tax_IVA_4_returned"/>
+        <field name="position_id" ref="l10n_cr_edi_account_fiscal_position_iva_4_returned"/>
+    </record>
+
+    <record id="payment_method_efectivo" model="l10n_cr_edi.payment.method">
+        <field name="code">01</field>
+        <field name="name">Efectivo / No se sabe</field>
+    </record>
+
+    <record id="payment_method_tarjeta" model="l10n_cr_edi.payment.method">
+        <field name="code">02</field>
+        <field name="name">Tarjeta</field>
+        <field name="fiscal_position_id" ref="l10n_cr_edi_account_fiscal_position_iva_4_returned"/>
+    </record>
+
+    <record id="payment_method_cheque" model="l10n_cr_edi.payment.method">
+        <field name="code">03</field>
+        <field name="name">Cheque</field>
+    </record>
+
+    <record id="payment_method_transferencia" model="l10n_cr_edi.payment.method">
+        <field name="code">04</field>
+        <field name="name">Transferencia o depósito bancario</field>
+    </record>
+
+    <record id="payment_method_terceros" model="l10n_cr_edi.payment.method">
+        <field name="code">05</field>
+        <field name="name">Recaudado por terceros</field>
+    </record>
+
+    <record id="payment_method_tros" model="l10n_cr_edi.payment.method">
+        <field name="code">99</field>
+        <field name="name">Otros</field>
+    </record>
+</odoo>

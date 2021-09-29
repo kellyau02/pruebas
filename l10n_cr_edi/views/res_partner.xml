@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 Vauxoo -->
+
+<odoo>
+    <record id="view_res_partner_inherit" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//form/sheet/group/group/div[hasclass('o_address_format')]/field[@name='city']" position="attributes">
+                    <attribute name="attrs">{'invisible': [('country_id','=',%(base.cr)d)]}</attribute>
+                </xpath>
+                <xpath expr="//form/sheet/group/group/div[hasclass('o_address_format')]/field[@name='state_id']" position="after">
+                    <field name="l10n_cr_edi_canton_id" class="o_address_state" string="Canton" placeholder="Canton" options='{"no_open": True, "no_create": True}'
+                        attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'invisible': [('country_id','!=',%(base.cr)d)]}" context="{'country_id': country_id, 'state_id': state_id, 'zip': zip}"/>
+                    <field name="l10n_cr_edi_district_id" class="o_address_state" string="District" placeholder="District" options='{"no_open": True, "no_create": True}'
+                        attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'invisible': [('country_id','!=',%(base.cr)d)]}" context="{'country_id': country_id, 'state_id': state_id, 'l10n_cr_edi_canton_id': l10n_cr_edi_canton_id, 'zip': zip}"/>
+                    <field name="l10n_cr_edi_neighborhood_id" class="o_address_state" string="Neighborhood" placeholder="Neighborhood" options='{"no_open": True, "no_create": True}'
+                        attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'invisible': [('country_id','!=',%(base.cr)d)]}" context="{'country_id': country_id, 'state_id': state_id, 'l10n_cr_edi_canton_id': l10n_cr_edi_canton_id, 'l10n_cr_edi_district_id': l10n_cr_edi_district_id, 'zip': zip}"/>
+                </xpath>
+                <xpath expr="//form/sheet/group/group/div[hasclass('o_address_format')]/field[@name='state_id']" position="attributes">
+                    <attribute name="context">{'country_id': country_id, 'zip': zip}</attribute>
+                </xpath>
+                <field name="property_payment_term_id" position="after">
+                    <field name="l10n_cr_edi_payment_method_id" options="{'no_open': True, 'no_create': True}" groups="account.group_account_invoice"/>
+                </field>
+                <field name="vat" position="after">
+                    <field name="l10n_cr_edi_vat_type"/>
+                </field>
+                <xpath expr="//notebook[last()]" position="inside">
+                    <page string="Addenda" name="addenda" attrs="{'invisible': [('is_company', '=', False)]}">
+                        <group>
+                            <field name="l10n_cr_edi_addenda"/>
+                        </group>
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <!-- Canton -->
+    <record id="view_country_state_canton_tree" model="ir.ui.view">
+        <field name="name">res.country.state.canton.tree</field>
+        <field name="model">res.country.state.canton</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="state_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_country_state_canton_form" model="ir.ui.view">
+        <field name="name">res.country.state.canton.form</field>
+        <field name="model">res.country.state.canton</field>
+        <field name="arch" type="xml">
+            <form string="Canton">
+                <group>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="state_id" options='{"no_open": True}'/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_country_state_canton" model="ir.actions.act_window">
+        <field name="name">Cantons</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.country.state.canton</field>
+        <field name="view_id" ref="view_country_state_canton_tree"/>
+    </record>
+
+    <menuitem id="menu_res_country_state_canton" parent="contacts.menu_localisation" sequence="3" name="Cantons" action="action_country_state_canton" />
+
+    <!-- District -->
+    <record id="view_country_state_canton_district_tree" model="ir.ui.view">
+        <field name="name">res.country.state.canton.district.tree</field>
+        <field name="model">res.country.state.canton.district</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="l10n_cr_edi_canton_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_country_state_canton_district_form" model="ir.ui.view">
+        <field name="name">res.country.state.canton.district.form</field>
+        <field name="model">res.country.state.canton.district</field>
+        <field name="arch" type="xml">
+            <form string="District">
+                <group>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="l10n_cr_edi_canton_id" options='{"no_open": True}'/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_country_state_canton_district" model="ir.actions.act_window">
+        <field name="name">Districts</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.country.state.canton.district</field>
+        <field name="view_id" ref="view_country_state_canton_district_tree"/>
+    </record>
+
+    <menuitem id="menu_res_country_state_canton_district" parent="contacts.menu_localisation" sequence="3" name="Districts" action="action_country_state_canton_district" />
+
+    <!-- Neighborhood -->
+    <record id="view_country_state_canton_district_neighborhood_tree" model="ir.ui.view">
+        <field name="name">res.country.state.canton.district.neighborhood.tree</field>
+        <field name="model">res.country.state.canton.district.neighborhood</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="district_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_country_state_canton_district_neighborhood_form" model="ir.ui.view">
+        <field name="name">res.country.state.canton.district.neighborhood.form</field>
+        <field name="model">res.country.state.canton.district.neighborhood</field>
+        <field name="arch" type="xml">
+            <form string="Neighborhood">
+                <group>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="district_id" options='{"no_open": True}'/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_country_state_canton_district_neighborhood" model="ir.actions.act_window">
+        <field name="name">Neighborhoods</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.country.state.canton.district.neighborhood</field>
+        <field name="view_id" ref="view_country_state_canton_district_neighborhood_tree"/>
+    </record>
+
+    <menuitem id="menu_res_country_state_canton_district_neighborhood" parent="contacts.menu_localisation" sequence="3" name="Neighborhoods" action="action_country_state_canton_district_neighborhood" />
+</odoo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="account_journal_1" model="account.journal">
+        <field name="name">Electronic Invoices</field>
+        <field name="type">sale</field>
+        <field name="code">FECR</field>
+        <field name="l10n_cr_edi_document_type">01</field>
+        <field name="l10n_cr_edi_location">1</field>
+        <field name="l10n_cr_edi_terminal">1</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+        <field name="refund_sequence" eval="True"/>
+    </record>
+    <record id="account_journal_2" model="account.journal">
+        <field name="name">Electronic Export Invoice</field>
+        <field name="type">sale</field>
+        <field name="code">FEECR</field>
+        <field name="l10n_cr_edi_document_type">09</field>
+        <field name="l10n_cr_edi_location">1</field>
+        <field name="l10n_cr_edi_terminal">1</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+        <field name="currency_id" ref="base.USD"/>
+    </record>
+    <record id="account_journal_3" model="account.journal">
+        <field name="name">Electronic Ticket</field>
+        <field name="type">sale</field>
+        <field name="code">TECR</field>
+        <field name="l10n_cr_edi_document_type">04</field>
+        <field name="l10n_cr_edi_location">1</field>
+        <field name="l10n_cr_edi_terminal">1</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+    </record>
+    <record id="account_journal_4" model="account.journal">
+        <field name="name">Facturas de proveedor</field>
+        <field name="type">purchase</field>
+        <field name="code">FPCR</field>
+        <field name="l10n_cr_edi_terminal">0</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+    </record>
+    <record id="account_journal_5" model="account.journal">
+        <field name="name">Factura electrónica de compras</field>
+        <field name="type">purchase</field>
+        <field name="code">FECCR</field>
+        <field name="l10n_cr_edi_document_type">08</field>
+        <field name="l10n_cr_edi_location">1</field>
+        <field name="l10n_cr_edi_terminal">4</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+    </record>
+    <record id="account_journal_6" model="account.journal">
+        <field name="name">Recepción de documentos electrónicos</field>
+        <field name="type">purchase</field>
+        <field name="code">RDECR</field>
+        <field name="l10n_cr_edi_location">1</field>
+        <field name="l10n_cr_edi_terminal">1</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+    </record>
+    <record id="account_journal_7" model="account.journal">
+        <field name="name">Debit Notes</field>
+        <field name="type">sale</field>
+        <field name="code">NDCR</field>
+        <field name="l10n_cr_edi_document_type">02</field>
+        <field name="l10n_cr_edi_location">1</field>
+        <field name="l10n_cr_edi_terminal">1</field>
+        <field name="edi_format_ids" eval="[(6, 0, [ref('l10n_cr_edi.edi_fedgt_4_3')])]"/>
+    </record>
+</odoo>

@@ -1,0 +1,479 @@
+id,name,l10n_cr_edi_canton_id/id,code
+distrito_1_01_01,Carmen,canton_1_01,1
+distrito_1_01_02,Merced,canton_1_01,2
+distrito_1_01_03,Hospital,canton_1_01,3
+distrito_1_01_04,Catedral,canton_1_01,4
+distrito_1_01_05,Zapote,canton_1_01,5
+distrito_1_01_06,San Francisco de Dos Ríos,canton_1_01,6
+distrito_1_01_07,Uruca,canton_1_01,7
+distrito_1_01_08,Mata Redonda,canton_1_01,8
+distrito_1_01_09,Pavas,canton_1_01,9
+distrito_1_01_10,Hatillo,canton_1_01,10
+distrito_1_01_11,San Sebastián,canton_1_01,11
+distrito_1_02_01,Escazú,canton_1_02,1
+distrito_1_02_02,San Antonio,canton_1_02,2
+distrito_1_02_03,San Rafael,canton_1_02,3
+distrito_1_03_01,Desamparados,canton_1_03,1
+distrito_1_03_02,San Miguel,canton_1_03,2
+distrito_1_03_03,San Juan de Dios,canton_1_03,3
+distrito_1_03_04,San Rafael Arriba,canton_1_03,4
+distrito_1_03_05,San Antonio,canton_1_03,5
+distrito_1_03_06,Frailes,canton_1_03,6
+distrito_1_03_07,Patarrá,canton_1_03,7
+distrito_1_03_08,San Cristóbal,canton_1_03,8
+distrito_1_03_09,Rosario,canton_1_03,9
+distrito_1_03_10,Damas,canton_1_03,10
+distrito_1_03_11,San Rafael Abajo,canton_1_03,11
+distrito_1_03_12,Gravilias,canton_1_03,12
+distrito_1_03_13,Los Guido,canton_1_03,13
+distrito_1_04_01,Santiago,canton_1_04,1
+distrito_1_04_02,Mercedes Sur,canton_1_04,2
+distrito_1_04_03,Barbacoas,canton_1_04,3
+distrito_1_04_04,Grifo Alto,canton_1_04,4
+distrito_1_04_05,San Rafael,canton_1_04,5
+distrito_1_04_06,Candelarita,canton_1_04,6
+distrito_1_04_07,Desamparaditos,canton_1_04,7
+distrito_1_04_08,San Antonio,canton_1_04,8
+distrito_1_04_09,Chires,canton_1_04,9
+distrito_1_05_01,San Marcos,canton_1_05,1
+distrito_1_05_02,San Lorenzo,canton_1_05,2
+distrito_1_05_03,San Carlos,canton_1_05,3
+distrito_1_06_01,Aserri,canton_1_06,1
+distrito_1_06_02,Tarbaca,canton_1_06,2
+distrito_1_06_03,Vuelta de Jorco,canton_1_06,3
+distrito_1_06_04,San Gabriel,canton_1_06,4
+distrito_1_06_05,Legua,canton_1_06,5
+distrito_1_06_06,Monterrey,canton_1_06,6
+distrito_1_06_07,Salitrillos,canton_1_06,7
+distrito_1_07_01,Mora,canton_1_07,1
+distrito_1_07_02,Guayabo,canton_1_07,2
+distrito_1_07_03,Tabarcia,canton_1_07,3
+distrito_1_07_04,Piedras Negras,canton_1_07,4
+distrito_1_07_05,Picagres,canton_1_07,5
+distrito_1_07_06,Jaris,canton_1_07,6
+distrito_1_07_07,Quitirrisi,canton_1_07,7
+distrito_1_08_01,Guadalupe,canton_1_08,1
+distrito_1_08_02,San Francisco,canton_1_08,2
+distrito_1_08_03,Calle Blancos,canton_1_08,3
+distrito_1_08_04,Mata de Plátano,canton_1_08,4
+distrito_1_08_05,Ipís,canton_1_08,5
+distrito_1_08_06,Rancho Redondo,canton_1_08,6
+distrito_1_08_07,Purral,canton_1_08,7
+distrito_1_09_01,Santa Ana,canton_1_09,1
+distrito_1_09_02,Salitral,canton_1_09,2
+distrito_1_09_03,Pozos,canton_1_09,3
+distrito_1_09_04,Uruca,canton_1_09,4
+distrito_1_09_05,Piedades,canton_1_09,5
+distrito_1_09_06,Brasil,canton_1_09,6
+distrito_1_10_01,Alajuelita,canton_1_10,1
+distrito_1_10_02,San Josecito,canton_1_10,2
+distrito_1_10_03,San Antonio,canton_1_10,3
+distrito_1_10_04,Concepción,canton_1_10,4
+distrito_1_10_05,San Felipe,canton_1_10,5
+distrito_1_11_01,San Isidro,canton_1_11,1
+distrito_1_11_02,San Rafael,canton_1_11,2
+distrito_1_11_03,Dulce Nombre de Jesús,canton_1_11,3
+distrito_1_11_04,Patalillo,canton_1_11,4
+distrito_1_11_05,Cascajal,canton_1_11,5
+distrito_1_12_01,San Ignacio,canton_1_12,1
+distrito_1_12_02,Guaitil Villa,canton_1_12,2
+distrito_1_12_03,Palmichal,canton_1_12,3
+distrito_1_12_04,Cangrejal,canton_1_12,4
+distrito_1_12_05,Sabanillas,canton_1_12,5
+distrito_1_13_01,San Juan,canton_1_13,1
+distrito_1_13_02,Cinco Esquinas,canton_1_13,2
+distrito_1_13_03,Anselmo Llorente,canton_1_13,3
+distrito_1_13_04,Leon XIII,canton_1_13,4
+distrito_1_13_05,Colima,canton_1_13,5
+distrito_1_14_01,San Vicente,canton_1_14,1
+distrito_1_14_02,San Jerónimo,canton_1_14,2
+distrito_1_14_03,La Trinidad,canton_1_14,3
+distrito_1_15_01,San Pedro,canton_1_15,1
+distrito_1_15_02,Sabanilla,canton_1_15,2
+distrito_1_15_03,Mercedes,canton_1_15,3
+distrito_1_15_04,San Rafael,canton_1_15,4
+distrito_1_16_01,San Pablo,canton_1_16,1
+distrito_1_16_02,San Pedro,canton_1_16,2
+distrito_1_16_03,San Juan de Mata,canton_1_16,3
+distrito_1_16_04,San Luis,canton_1_16,4
+distrito_1_16_05,Carara,canton_1_16,5
+distrito_1_17_01,Santa María,canton_1_17,1
+distrito_1_17_02,Jardín,canton_1_17,2
+distrito_1_17_03,Copey,canton_1_17,3
+distrito_1_18_01,Curridabat,canton_1_18,1
+distrito_1_18_02,Granadilla,canton_1_18,2
+distrito_1_18_03,Sánchez,canton_1_18,3
+distrito_1_18_04,Tirrases,canton_1_18,4
+distrito_1_19_01,San Isidro de El General,canton_1_19,1
+distrito_1_19_02,El General,canton_1_19,2
+distrito_1_19_03,Daniel Flores,canton_1_19,3
+distrito_1_19_04,Rivas,canton_1_19,4
+distrito_1_19_05,San Pedro,canton_1_19,5
+distrito_1_19_06,Platanares,canton_1_19,6
+distrito_1_19_07,Pejibaye,canton_1_19,7
+distrito_1_19_08,Cajón,canton_1_19,8
+distrito_1_19_09,Barú,canton_1_19,9
+distrito_1_19_10,Río Nuevo,canton_1_19,10
+distrito_1_19_11,Páramo,canton_1_19,11
+distrito_1_20_01,San Pablo,canton_1_20,1
+distrito_1_20_02,San Andrés,canton_1_20,2
+distrito_1_20_03,Llano Bonito,canton_1_20,3
+distrito_1_20_04,San Isidro,canton_1_20,4
+distrito_1_20_05,Santa Cruz,canton_1_20,5
+distrito_1_20_06,San Antonio,canton_1_20,6
+distrito_2_01_01,Alajuela,canton_2_01,1
+distrito_2_01_02,San José,canton_2_01,2
+distrito_2_01_03,Carrizal,canton_2_01,3
+distrito_2_01_04,San Antonio,canton_2_01,4
+distrito_2_01_05,Guácima,canton_2_01,5
+distrito_2_01_06,San Isidro,canton_2_01,6
+distrito_2_01_07,Sabanilla,canton_2_01,7
+distrito_2_01_08,San Rafael,canton_2_01,8
+distrito_2_01_09,Río Segundo,canton_2_01,9
+distrito_2_01_10,Desamparados,canton_2_01,10
+distrito_2_01_11,Turrúcares,canton_2_01,11
+distrito_2_01_12,Tambor,canton_2_01,12
+distrito_2_01_13,Garita,canton_2_01,13
+distrito_2_01_14,Sarapiquí,canton_2_01,14
+distrito_2_02_01,San Ramón,canton_2_02,1
+distrito_2_02_02,Santiago,canton_2_02,2
+distrito_2_02_03,San Juan,canton_2_02,3
+distrito_2_02_04,Piedades Norte,canton_2_02,4
+distrito_2_02_05,Piedades Sur,canton_2_02,5
+distrito_2_02_06,San Rafael,canton_2_02,6
+distrito_2_02_07,San Isidro,canton_2_02,7
+distrito_2_02_08,Ángeles,canton_2_02,8
+distrito_2_02_09,Alfaro,canton_2_02,9
+distrito_2_02_10,Volio,canton_2_02,10
+distrito_2_02_11,Concepción,canton_2_02,11
+distrito_2_02_12,Zapotal,canton_2_02,12
+distrito_2_02_13,Peñas Blancas,canton_2_02,13
+distrito_2_02_14,San Lorenzo,canton_2_02,14
+distrito_2_03_01,Grecia,canton_2_03,1
+distrito_2_03_02,San Isidro,canton_2_03,2
+distrito_2_03_03,San José,canton_2_03,3
+distrito_2_03_04,San Roque,canton_2_03,4
+distrito_2_03_05,Tacares,canton_2_03,5
+distrito_2_03_06,Puente de Piedra,canton_2_03,6
+distrito_2_03_07,Bolívar,canton_2_03,7
+distrito_2_04_01,San Mateo,canton_2_04,1
+distrito_2_04_02,Desmonte,canton_2_04,2
+distrito_2_04_03,Jesús María,canton_2_04,3
+distrito_2_04_04,Labrador,canton_2_04,4
+distrito_2_05_01,Atenas,canton_2_05,1
+distrito_2_05_02,Jesús,canton_2_05,2
+distrito_2_05_03,Mercedes,canton_2_05,3
+distrito_2_05_04,San Isidro,canton_2_05,4
+distrito_2_05_05,Concepción,canton_2_05,5
+distrito_2_05_06,San Jose,canton_2_05,6
+distrito_2_05_07,Santa Eulalia,canton_2_05,7
+distrito_2_05_08,Escobal,canton_2_05,8
+distrito_2_06_01,Naranjo,canton_2_06,1
+distrito_2_06_02,San Miguel,canton_2_06,2
+distrito_2_06_03,San José,canton_2_06,3
+distrito_2_06_04,Cirrí Sur,canton_2_06,4
+distrito_2_06_05,San Jerónimo,canton_2_06,5
+distrito_2_06_06,San Juan,canton_2_06,6
+distrito_2_06_07,El Rosario,canton_2_06,7
+distrito_2_06_08,Palmitos,canton_2_06,8
+distrito_2_07_01,Palmares,canton_2_07,1
+distrito_2_07_02,Zaragoza,canton_2_07,2
+distrito_2_07_03,Buenos Aires,canton_2_07,3
+distrito_2_07_04,Santiago,canton_2_07,4
+distrito_2_07_05,Candelaria,canton_2_07,5
+distrito_2_07_06,Esquípulas,canton_2_07,6
+distrito_2_07_07,La Granja,canton_2_07,7
+distrito_2_08_01,San Pedro,canton_2_08,1
+distrito_2_08_02,San Juan,canton_2_08,2
+distrito_2_08_03,San Rafael,canton_2_08,3
+distrito_2_08_04,Carrillos,canton_2_08,4
+distrito_2_08_05,Sabana Redonda,canton_2_08,5
+distrito_2_09_01,Orotina,canton_2_09,1
+distrito_2_09_02,El Mastate,canton_2_09,2
+distrito_2_09_03,Hacienda Vieja,canton_2_09,3
+distrito_2_09_04,Coyolar,canton_2_09,4
+distrito_2_09_05,La Ceiba,canton_2_09,5
+distrito_2_10_01,Quesada,canton_2_10,1
+distrito_2_10_02,Florencia,canton_2_10,2
+distrito_2_10_03,Buenavista,canton_2_10,3
+distrito_2_10_04,Aguas Zarcas,canton_2_10,4
+distrito_2_10_05,Venecia,canton_2_10,5
+distrito_2_10_06,Pital,canton_2_10,6
+distrito_2_10_07,La Fortuna,canton_2_10,7
+distrito_2_10_08,La Tigra,canton_2_10,8
+distrito_2_10_09,La Palmera,canton_2_10,9
+distrito_2_10_10,Venado,canton_2_10,10
+distrito_2_10_11,Cutris,canton_2_10,11
+distrito_2_10_12,Monterrey,canton_2_10,12
+distrito_2_10_13,Pocosol,canton_2_10,13
+distrito_2_11_01,Zarcero,canton_2_11,1
+distrito_2_11_02,Laguna,canton_2_11,2
+distrito_2_11_04,Guadalupe,canton_2_11,4
+distrito_2_11_05,Palmira,canton_2_11,5
+distrito_2_11_06,Zapote,canton_2_11,6
+distrito_2_11_07,Brisas,canton_2_11,7
+distrito_2_12_01,Sarchí Norte,canton_2_12,1
+distrito_2_12_02,Sarchí Sur,canton_2_12,2
+distrito_2_12_03,Toro Amarillo,canton_2_12,3
+distrito_2_12_04,San Pedro,canton_2_12,4
+distrito_2_12_05,Rodríguez,canton_2_12,5
+distrito_2_13_01,Upala,canton_2_13,1
+distrito_2_13_02,Aguas Claras,canton_2_13,2
+distrito_2_13_03,San José o Pizote,canton_2_13,3
+distrito_2_13_04,Bijagua,canton_2_13,4
+distrito_2_13_05,Delicias,canton_2_13,5
+distrito_2_13_06,Dos Ríos,canton_2_13,6
+distrito_2_13_07,Yolillal,canton_2_13,7
+distrito_2_13_08,Canalete,canton_2_13,8
+distrito_2_14_01,Los Chiles,canton_2_14,1
+distrito_2_14_02,Caño Negro,canton_2_14,2
+distrito_2_14_03,El Amparo,canton_2_14,3
+distrito_2_14_04,San Jorge,canton_2_14,4
+distrito_2_15_01,San Rafael,canton_2_15,1
+distrito_2_15_02,Buenavista,canton_2_15,2
+distrito_2_15_03,Cote,canton_2_15,3
+distrito_2_15_04,Katira,canton_2_15,4
+distrito_3_01_01,Oriental (Ciudad de Cartago Parte),canton_3_01,1
+distrito_3_01_02,Occidental (Ciudad de Cartago Parte),canton_3_01,2
+distrito_3_01_03,Carmen,canton_3_01,3
+distrito_3_01_04,San Nicolás,canton_3_01,4
+distrito_3_01_05,Aguacaliente o San Francisco,canton_3_01,5
+distrito_3_01_06,Guadalupe o Arenilla,canton_3_01,6
+distrito_3_01_07,Corralillo,canton_3_01,7
+distrito_3_01_08,Tierra Blanca,canton_3_01,8
+distrito_3_01_09,Dulce Nombre,canton_3_01,9
+distrito_3_01_10,Llano Grande,canton_3_01,10
+distrito_3_01_11,Quebradilla,canton_3_01,11
+distrito_3_02_01,Paraíso,canton_3_02,1
+distrito_3_02_02,Santiago,canton_3_02,2
+distrito_3_02_03,Orosi,canton_3_02,3
+distrito_3_02_04,Cachí,canton_3_02,4
+distrito_3_02_05,Llanos de Santa Lucía,canton_3_02,5
+distrito_3_03_01,Tres Ríos,canton_3_03,1
+distrito_3_03_02,San Diego,canton_3_03,2
+distrito_3_03_03,San Juan,canton_3_03,3
+distrito_3_03_04,San Rafael,canton_3_03,4
+distrito_3_03_05,Concepción,canton_3_03,5
+distrito_3_03_06,Dulce Nombre,canton_3_03,6
+distrito_3_03_07,San Ramón,canton_3_03,7
+distrito_3_03_08,Río Azul,canton_3_03,8
+distrito_3_04_01,Juan Viñas,canton_3_04,1
+distrito_3_04_02,Tucurrique,canton_3_04,2
+distrito_3_04_03,Pejibaye,canton_3_04,3
+distrito_3_05_01,Turrialba,canton_3_05,1
+distrito_3_05_02,La Suiza,canton_3_05,2
+distrito_3_05_03,Peralta,canton_3_05,3
+distrito_3_05_04,Santa Cruz,canton_3_05,4
+distrito_3_05_05,Santa Teresita,canton_3_05,5
+distrito_3_05_06,Pavones,canton_3_05,6
+distrito_3_05_07,Tuis,canton_3_05,7
+distrito_3_05_08,Tayutic,canton_3_05,8
+distrito_3_05_09,Santa Rosa,canton_3_05,9
+distrito_3_05_10,Tres Equis,canton_3_05,10
+distrito_3_05_11,La Isabel,canton_3_05,11
+distrito_3_05_12,Chirripó,canton_3_05,12
+distrito_3_06_01,Pacayas,canton_3_06,1
+distrito_3_06_02,Cervantes,canton_3_06,2
+distrito_3_06_03,Capellades,canton_3_06,3
+distrito_3_07_01,San Rafael,canton_3_07,1
+distrito_3_07_02,Cot,canton_3_07,2
+distrito_3_07_03,Potrero Cerrado,canton_3_07,3
+distrito_3_07_04,Cipreses,canton_3_07,4
+distrito_3_07_05,Santa Rosa,canton_3_07,5
+distrito_3_08_01,El Tejar,canton_3_08,1
+distrito_3_08_02,San Isidro,canton_3_08,2
+distrito_3_08_03,Tobosi,canton_3_08,3
+distrito_3_08_04,Patio de Agua,canton_3_08,4
+distrito_4_01_01,Heredia,canton_4_01,1
+distrito_4_01_02,Mercedes,canton_4_01,2
+distrito_4_01_03,San Francisco,canton_4_01,3
+distrito_4_01_04,Ulloa o Barreal,canton_4_01,4
+distrito_4_01_05,Vara Blanca,canton_4_01,5
+distrito_4_02_01,Barva,canton_4_02,1
+distrito_4_02_02,San Pedro,canton_4_02,2
+distrito_4_02_03,San Pablo,canton_4_02,3
+distrito_4_02_04,San Roque,canton_4_02,4
+distrito_4_02_05,Santa Lucía,canton_4_02,5
+distrito_4_02_06,San José de la Montaña,canton_4_02,6
+distrito_4_03_02,San Vicente,canton_4_03,2
+distrito_4_03_03,San Miguel,canton_4_03,3
+distrito_4_03_04,Paracito,canton_4_03,4
+distrito_4_03_05,Santo Tomás,canton_4_03,5
+distrito_4_03_06,Santa Rosa,canton_4_03,6
+distrito_4_03_07,Tures,canton_4_03,7
+distrito_4_03_08,Pará,canton_4_03,8
+distrito_4_04_01,Santa Bárbara,canton_4_04,1
+distrito_4_04_02,San Pedro,canton_4_04,2
+distrito_4_04_03,San Juan,canton_4_04,3
+distrito_4_04_04,Jesús,canton_4_04,4
+distrito_4_04_05,Santo Domingo,canton_4_04,5
+distrito_4_04_06,Purabá,canton_4_04,6
+distrito_4_05_01,San Rafael,canton_4_05,1
+distrito_4_05_02,San Josecito,canton_4_05,2
+distrito_4_05_03,Santiago,canton_4_05,3
+distrito_4_05_04,Ángeles,canton_4_05,4
+distrito_4_05_05,Concepción,canton_4_05,5
+distrito_4_06_01,San Isidro,canton_4_06,1
+distrito_4_06_02,San José,canton_4_06,2
+distrito_4_06_03,Concepción,canton_4_06,3
+distrito_4_06_04,San Francisco,canton_4_06,4
+distrito_4_07_01,San Antonio,canton_4_07,1
+distrito_4_07_02,La Ribera,canton_4_07,2
+distrito_4_07_03,La Asunción,canton_4_07,3
+distrito_4_08_01,San Joaquín,canton_4_08,1
+distrito_4_08_02,Barrantes,canton_4_08,2
+distrito_4_08_03,Llorente,canton_4_08,3
+distrito_4_09_01,San Pablo,canton_4_09,1
+distrito_4_09_02,Rincón de Sabanilla,canton_4_09,2
+distrito_4_10_01,Puerto Viejo,canton_4_10,1
+distrito_4_10_02,La Virgen,canton_4_10,2
+distrito_4_10_03,Las Horquetas,canton_4_10,3
+distrito_4_10_04,Llanuras del Gaspar,canton_4_10,4
+distrito_4_10_05,Cureña,canton_4_10,5
+distrito_5_01_01,Liberia,canton_5_01,1
+distrito_5_01_02,Cañas Dulces,canton_5_01,2
+distrito_5_01_03,Mayorga,canton_5_01,3
+distrito_5_01_04,Nacascolo,canton_5_01,4
+distrito_5_01_05,Curubandé,canton_5_01,5
+distrito_5_02_01,Nicoya,canton_5_02,1
+distrito_5_02_02,Mansión,canton_5_02,2
+distrito_5_02_03,San Antonio,canton_5_02,3
+distrito_5_02_04,Quebrada Honda,canton_5_02,4
+distrito_5_02_05,Sámara,canton_5_02,5
+distrito_5_02_06,Nosara,canton_5_02,6
+distrito_5_02_07,Belén de Nosarita,canton_5_02,7
+distrito_5_03_01,Santa Cruz,canton_5_03,1
+distrito_5_03_02,Bolsón,canton_5_03,2
+distrito_5_03_03,Veintisiete de Abril,canton_5_03,3
+distrito_5_03_04,Tempate,canton_5_03,4
+distrito_5_03_05,Cartagena,canton_5_03,5
+distrito_5_03_06,Cuajiniquil,canton_5_03,6
+distrito_5_03_07,Diriá,canton_5_03,7
+distrito_5_03_08,Cabo Velas,canton_5_03,8
+distrito_5_03_09,Tamarindo,canton_5_03,9
+distrito_5_04_01,Bagaces,canton_5_04,1
+distrito_5_04_02,La Fortuna,canton_5_04,2
+distrito_5_04_03,Mogote,canton_5_04,3
+distrito_5_04_04,Río Naranjo,canton_5_04,4
+distrito_5_05_01,Filadelfia,canton_5_05,1
+distrito_5_05_02,Palmira,canton_5_05,2
+distrito_5_05_03,Sardinal,canton_5_05,3
+distrito_5_05_04,Belén,canton_5_05,4
+distrito_5_06_01,Cañas,canton_5_06,1
+distrito_5_06_02,Palmira,canton_5_06,2
+distrito_5_06_03,San Miguel,canton_5_06,3
+distrito_5_06_04,Bebedero,canton_5_06,4
+distrito_5_06_05,Porozal,canton_5_06,5
+distrito_5_07_01,Las Juntas,canton_5_07,1
+distrito_5_07_02,Sierra,canton_5_07,2
+distrito_5_07_03,San Juan,canton_5_07,3
+distrito_5_07_04,Colorado,canton_5_07,4
+distrito_5_08_01,Tilarán,canton_5_08,1
+distrito_5_08_02,Quebrada Grande,canton_5_08,2
+distrito_5_08_03,Tronadora,canton_5_08,3
+distrito_5_08_04,Santa Rosa,canton_5_08,4
+distrito_5_08_05,Líbano,canton_5_08,5
+distrito_5_08_06,Tierras Morenas,canton_5_08,6
+distrito_5_08_07,Arenal,canton_5_08,7
+distrito_5_09_01,Carmona,canton_5_09,1
+distrito_5_09_02,Santa Rita,canton_5_09,2
+distrito_5_09_03,Zapotal,canton_5_09,3
+distrito_5_09_04,San Pablo,canton_5_09,4
+distrito_5_09_05,Porvenir,canton_5_09,5
+distrito_5_09_06,Bejuco,canton_5_09,6
+distrito_5_10_01,La Cruz,canton_5_10,1
+distrito_5_10_02,Santa Cecilia,canton_5_10,2
+distrito_5_10_03,La Garita,canton_5_10,3
+distrito_5_10_04,Santa Elena,canton_5_10,4
+distrito_5_11_01,Hojancha,canton_5_11,1
+distrito_5_11_02,Monte Romo,canton_5_11,2
+distrito_5_11_03,Puerto Carrillo,canton_5_11,3
+distrito_5_11_04,Huacas,canton_5_11,4
+distrito_6_01_01,Puntarenas,canton_6_01,1
+distrito_6_01_02,Pitahaya,canton_6_01,2
+distrito_6_01_03,Chomes,canton_6_01,3
+distrito_6_01_04,Lepanto,canton_6_01,4
+distrito_6_01_05,Paquera,canton_6_01,5
+distrito_6_01_06,Manzanillo,canton_6_01,6
+distrito_6_01_07,Guacimal,canton_6_01,7
+distrito_6_01_08,Barranca,canton_6_01,8
+distrito_6_01_09,Monte Verde,canton_6_01,9
+distrito_6_01_11,Cóbano,canton_6_01,11
+distrito_6_01_12,Chacarita,canton_6_01,12
+distrito_6_01_13,Chira,canton_6_01,13
+distrito_6_01_14,Acapulco,canton_6_01,14
+distrito_6_01_15,El Roble,canton_6_01,15
+distrito_6_01_16,Arancibia,canton_6_01,16
+distrito_6_02_01,Espíritu Santo,canton_6_02,1
+distrito_6_02_02,San Juan Grande,canton_6_02,2
+distrito_6_02_03,Macacona,canton_6_02,3
+distrito_6_02_04,San Rafael,canton_6_02,4
+distrito_6_02_05,San Jerónimo,canton_6_02,5
+distrito_6_02_06,Caldera,canton_6_02,6
+distrito_6_03_01,Buenos Aires,canton_6_03,1
+distrito_6_03_02,Volcán,canton_6_03,2
+distrito_6_03_03,Potrero Grande,canton_6_03,3
+distrito_6_03_04,Boruca,canton_6_03,4
+distrito_6_03_05,Pilas,canton_6_03,5
+distrito_6_03_06,Colinas,canton_6_03,6
+distrito_6_03_07,Chánguena,canton_6_03,7
+distrito_6_03_08,Biolley,canton_6_03,8
+distrito_6_03_09,Brunka,canton_6_03,9
+distrito_6_04_01,Miramar,canton_6_04,1
+distrito_6_04_02,La Unión,canton_6_04,2
+distrito_6_04_03,San Isidro,canton_6_04,3
+distrito_6_05_01,Puerto Cortés,canton_6_05,1
+distrito_6_05_02,Palmar,canton_6_05,2
+distrito_6_05_03,Sierpe,canton_6_05,3
+distrito_6_05_04,Bahía Ballena,canton_6_05,4
+distrito_6_05_05,Piedras Blancas,canton_6_05,5
+distrito_6_05_06,Bahía Drake,canton_6_05,6
+distrito_6_06_01,Quepos,canton_6_06,1
+distrito_6_06_02,Savegre,canton_6_06,2
+distrito_6_06_03,Naranjito,canton_6_06,3
+distrito_6_07_01,Golfito,canton_6_07,1
+distrito_6_07_02,Puerto Jiménez,canton_6_07,2
+distrito_6_07_03,Guaycará,canton_6_07,3
+distrito_6_07_04,Pavón,canton_6_07,4
+distrito_6_08_01,San Vito,canton_6_08,1
+distrito_6_08_02,Sabalito,canton_6_08,2
+distrito_6_08_03,Aguabuena,canton_6_08,3
+distrito_6_08_04,Limoncito,canton_6_08,4
+distrito_6_08_05,Pittier,canton_6_08,5
+distrito_6_08_06,Gutierrez Braun,canton_6_08,6
+distrito_6_09_01,Parrita,canton_6_09,1
+distrito_6_10_01,Corredor,canton_6_10,1
+distrito_6_10_02,La Cuesta,canton_6_10,2
+distrito_6_10_03,Canoas,canton_6_10,3
+distrito_6_10_04,Laurel,canton_6_10,4
+distrito_6_11_01,Jacó,canton_6_11,1
+distrito_6_11_02,Tárcoles,canton_6_11,2
+distrito_7_01_01,Limón,canton_7_01,1
+distrito_7_01_02,Valle la Estrella,canton_7_01,2
+distrito_7_01_03,Río Blanco,canton_7_01,3
+distrito_7_01_04,Matama,canton_7_01,4
+distrito_7_02_01,Guápiles,canton_7_02,1
+distrito_7_02_02,Jiménez,canton_7_02,2
+distrito_7_02_03,Rita,canton_7_02,3
+distrito_7_02_04,Roxana,canton_7_02,4
+distrito_7_02_05,Cariari,canton_7_02,5
+distrito_7_02_06,Colorado,canton_7_02,6
+distrito_7_02_07,La Colonia,canton_7_02,7
+distrito_7_03_01,Siquirres,canton_7_03,1
+distrito_7_03_02,Pacuarito,canton_7_03,2
+distrito_7_03_03,Florida,canton_7_03,3
+distrito_7_03_04,Germania,canton_7_03,4
+distrito_7_03_05,El Cairo,canton_7_03,5
+distrito_7_03_06,Alegría,canton_7_03,6
+distrito_7_04_01,Bratsi,canton_7_04,1
+distrito_7_04_02,Sixaola,canton_7_04,2
+distrito_7_04_03,Cahuita,canton_7_04,3
+distrito_7_04_04,Telire,canton_7_04,4
+distrito_7_05_01,Matina,canton_7_05,1
+distrito_7_05_02,Batán,canton_7_05,2
+distrito_7_05_03,Carrandi,canton_7_05,3
+distrito_7_06_01,Guácimo,canton_7_06,1
+distrito_7_06_02,Mercedes,canton_7_06,2
+distrito_7_06_03,Pocora,canton_7_06,3
+distrito_7_06_04,Río Jiménez,canton_7_06,4
+distrito_7_06_05,Duacarí,canton_7_06,5

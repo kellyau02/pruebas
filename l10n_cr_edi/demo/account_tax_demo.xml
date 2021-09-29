@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="account_tax_1" model="account.tax">
+        <field name="name">IVA 13%</field>
+        <field name="l10n_cr_edi_code">01</field>
+        <field name="l10n_cr_edi_iva_code">08</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">13</field>
+    </record>
+    <record id="account_tax_2" model="account.tax">
+        <field name="name">IVA Exempt 4%</field>
+        <field name="amount">9</field>
+        <field name="l10n_cr_edi_code">01</field>
+        <field name="l10n_cr_edi_iva_code">08</field>
+        <field name="l10n_cr_edi_exempt" eval="True"/>
+        <field name="l10n_cr_edi_original_amount">13</field>
+    </record>
+    <record id="account_tax_3" model="account.tax">
+        <field name="name">IVA 13% Purchase</field>
+        <field name="amount">13</field>
+        <field name="l10n_cr_edi_code">01</field>
+        <field name="l10n_cr_edi_iva_code">08</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="l10n_cr_edi_tax_condition">01</field>
+    </record>
+</odoo>
+

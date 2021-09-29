@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 Vauxoo -->
+
+<odoo>
+    <record id="view_journal_inherit" model="ir.ui.view">
+        <field name="name">account.journal.form</field>
+        <field name="model">account.journal</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="account.view_account_journal_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//form/sheet/notebook/page[@name='advanced_settings']/group" position="inside">
+                    <group string="eInvoicing">
+                        <field name="l10n_cr_edi_document_type"/>
+                        <field name="l10n_cr_edi_location"/>
+                        <field name="l10n_cr_edi_terminal"/>
+                    </group>
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>

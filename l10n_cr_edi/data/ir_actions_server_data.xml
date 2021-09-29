@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo noupdate="1">
+    <!-- Share Button in action menu -->
+    <record id="model_account_invoice_action_share" model="ir.actions.server">
+        <field name="name">Update emission datetime</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">
+# TODO: change it by a user.has_group()
+if env.user.id != 1:
+  raise Warning ('Tú no estás autorizado para ejecutar esta acción')
+
+for record in records:
+    if record.state not in ['open','paid','in_payment']:
+        raise Warning ('Esta acción solo se debe aplicar sobre facturas confirmadas')
+
+    record._action_server_update_emission_datetime()
+        </field>
+    </record>
+</odoo>

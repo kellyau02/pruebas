@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_l10n_cr_edi_tax_exemption_form" model="ir.ui.view">
+        <field name="name">view.l10n_cr_edi.tax.exemption.form</field>
+        <field name="model">l10n_cr_edi.tax.exemption</field>
+        <field name="arch" type="xml">
+            <form string="Tax Exemption">
+                <sheet string="Tax Exemption">
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="name"/>
+                            <field name="exempt_type"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="issuer"/>
+                            <field name="exempt_date"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_l10n_cr_edi_tax_exemption_tree" model="ir.ui.view">
+        <field name="name">view.l10n_cr_edi.tax.exemption.tree</field>
+        <field name="model">l10n_cr_edi.tax.exemption</field>
+        <field name="arch" type="xml">
+            <tree string="Tax Exemption">
+                <field name="partner_id"/>
+                <field name="exempt_type"/>
+                <field name="name"/>
+                <field name="issuer"/>
+                <field name="exempt_date"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_l10n_cr_edi_tax_exemption" model="ir.actions.act_window">
+        <field name="name">Tax Exemption</field>
+        <field name="res_model">l10n_cr_edi.tax.exemption</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="l10n_cr_edi_tax_exemption" name="Tax Exemption" parent='account.root_payment_menu' sequence="50"
+        action='action_l10n_cr_edi_tax_exemption'
+    />
+</odoo>
