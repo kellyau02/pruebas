@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-extend='ClientDetails'>
+        <t t-jquery='.client-details-box' t-operation='replace'>
+            <div class='client-details-box clearfix'>
+                <div class='client-details-left'>
+                    <div class='client-detail'>
+                        <span class='label'>Señas</span>
+                        <span class='detail client-senas1'><t t-esc='partner.street' /></span>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'></span>
+                        <span class='detail client-senas2'><t t-esc='partner.street2' /></span>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>País</span>
+                        <t t-if='partner.country_id'>
+                            <span class='detail client-country'><t t-esc='partner.country_id[1]' /></span>
+                        </t>
+                        <t t-if='!partner.country_id'>
+                            <span class='detail client-country empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Provincia</span>
+                        <t t-if='partner.state_id'>
+                            <span class='detail client-state'><t t-esc='partner.state_id[1]' /></span>
+                        </t>
+                        <t t-if='!partner.state_id'>
+                            <span class='detail client-state empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Cantón</span>
+                        <t t-if='partner.canton_id'>
+                            <span class='detail client-canton'><t t-esc='partner.canton_id[1]' /></span>
+                        </t>
+                        <t t-if='!partner.canton_id'>
+                            <span class='detail client-canton empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Distrito</span>
+                        <t t-if='partner.district_id'>
+                            <span class='detail client-district'><t t-esc='partner.district_id[1]' /></span>
+                        </t>
+                        <t t-if='!partner.district_id'>
+                            <span class='detail client-district empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Barrio</span>
+                        <t t-if='partner.neighborhood_id'>
+                            <span class='detail client-neighborhood'><t t-esc='partner.neighborhood_id[1]' /></span>
+                        </t>
+                        <t t-if='!partner.neighborhood_id'>
+                            <span class='detail client-neighborhood empty'>N/A</span>
+                        </t>
+                    </div>
+                </div>
+                <div class='client-details-right'>
+                    <div class='client-detail'>
+                        <span class='label'>Email</span>
+                        <span class='detail client-email'><t t-esc='partner.email' /></span>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>CC</span>
+                        <t t-if='partner.email_copies'>
+                            <span class='detail client-email-copies'><t t-esc='partner.email_copies' /></span>
+                        </t>
+                        <t t-if='!partner.email_copies'>
+                            <span class='detail client-email-copies'></span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Phone</span>
+                        <t t-if='partner.phone'>
+                            <span class='detail client-phone'><t t-esc='partner.phone' /></span>
+                        </t>
+                        <t t-if='!partner.phone'>
+                            <span class='detail client-phone empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Barcode</span>
+                        <t t-if='partner.ean13'>
+                            <span class='detail client-id'><t t-esc='partner.ean13'/></span>
+                        </t>
+                        <t t-if='!partner.ean13'>
+                            <span class='detail client-id empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Tax ID</span>
+                        <t t-if='partner.vat'>
+                            <span class='detail vat'><t t-esc='partner.vat'/></span>
+                        </t>
+                        <t t-if='!partner.vat'>
+                            <span class='detail vat empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Tipo de ID</span>
+                        <t t-if='partner.vat_type and partner.vat_type == "01"'>
+                            <span class='detail vat_type'>Cédula física</span>
+                        </t>
+                        <t t-if='partner.vat_type and partner.vat_type == "02"'>
+                            <span class='detail vat_type'>Cédula jurídica</span>
+                        </t>
+                        <t t-if='partner.vat_type and partner.vat_type == "03"'>
+                            <span class='detail vat_type'>DIMEX</span>
+                        </t>
+                        <t t-if='partner.vat_type and partner.vat_type == "04"'>
+                            <span class='detail vat_type'>NITE</span>
+                        </t>
+                        <t t-if='partner.vat_type and partner.vat_type == "10"'>
+                            <span class='detail vat_type'>Extranjero</span>
+                        </t>
+                        <t t-if='!partner.vat_type'>
+                            <span class='detail vat_type empty'>N/A</span>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>
+    <t t-extend='ClientDetailsEdit'>
+        <t t-jquery='.client-details-box' t-operation='replace'>
+            <div class='client-details-box clearfix'>
+                <div class='client-details-left'>
+                    <div class='client-detail'>
+                        <span class='label'>Country</span>
+                        <select class='detail client-address-country needsclick' name='country_id'>
+                            <option value=''>None</option>
+                            <t t-foreach='widget.pos.countries' t-as='country'>
+                                <option t-att-value='country.id' t-att-selected="partner.country_id ? ((country.id === partner.country_id[0]) ? true : undefined) : undefined">
+                                    <t t-esc='country.name'/>
+                                </option>
+                            </t>
+                        </select>
+                    </div>
+                </div>
+                <div class='client-details-right'>
+                    <div class='client-detail'>
+                        <span class='label'>Email</span>
+                        <input class='detail client-email'  name='email'    type='email'    t-att-value='partner.email || ""'></input>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>CC</span>
+                        <input class='detail client-email-copies'  name='email_copies'    type='email'    t-att-value='partner.email_copies || ""'></input>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Phone</span>
+                        <input class='detail client-phone'  name='phone'    type='tel'      t-att-value='partner.phone || ""'></input>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Barcode</span>
+                        <input class='detail barcode'       name='ean13'    t-att-value='partner.ean13 || ""'></input>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Tax ID</span>
+                        <input class='detail vat'           name='vat'     t-att-value='partner.vat || ""'></input>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Tipo de ID</span>
+                        <select class='detail needsclick' name='vat_type'>
+                                <option value='' t-att-selected="!partner.vat_type ? true : undefined">
+
+                                </option>
+                                <option value='01' t-att-selected="partner.vat_type === '01' ? true : undefined">
+                                    Cédula física
+                                </option>
+                                <option value='02' t-att-selected="partner.vat_type === '02' ? true : undefined">
+                                    Cédula jurídica
+                                </option>
+                                <option value='03' t-att-selected="partner.vat_type === '03' ? true : undefined">
+                                    DIMEX
+                                </option>
+                                <option value='04' t-att-selected="partner.vat_type === '04' ? true : undefined">
+                                    NITE
+                                </option>
+                                <option value='10' t-att-selected="partner.vat_type === '10' ? true : undefined">
+                                    Extranjero
+                                </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>
+
+    <t t-extend='XmlReceipt'>
+        <t t-jquery='receipt' t-operation='append'>
+            <div font='b'>
+                <div>Tiquete electrónico: <t t-esc='receipt.invoice_number' /></div>
+                <div>Clave numérica: <t t-esc='receipt.invoice_cr_einvoicing_full_number' /></div>
+            </div>
+        </t>
+        <t t-jquery="t[t-if='receipt.cashier']" t-operation='after'>
+            <t t-if='receipt.client'>
+                <div class="customer">
+                    <div>--------------------------------</div>
+                    <div>Customer: <t t-esc='receipt.client' /></div>
+                    <t t-if='receipt.client_vat'><div>TIN: <t t-esc='receipt.client_vat' /></div></t>
+                    <t t-if='receipt.client_email'><div>Email: <t t-esc='receipt.client_email' /></div></t>
+                </div>
+            </t>
+        </t>
+    </t>
+</templates>
