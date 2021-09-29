@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_cr_edi_product_cabys
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-28 04:23+0000\n"
+"PO-Revision-Date: 2020-10-27 22:23-0600\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_cr_edi_product_cabys
+#: model_terms:ir.ui.view,arch_db:l10n_cr_edi_product_cabys.view_l10n_cr_edi_product_cabys_tree
+msgid "CABYS Code"
+msgstr "Código CABYS"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_product_product__l10n_cr_edi_code_cabys_id
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_product_template__l10n_cr_edi_code_cabys_id
+msgid "CABYS code"
+msgstr "Código CABYS"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__code
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,help:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__active
+msgid "If this record is not active, this cannot be selected."
+msgstr "Si este registro no está activo, no se puede seleccionar."
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,help:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__name
+msgid "Name defined by DGT CABYS for this product"
+msgstr "Nombre definido por la DGT"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.actions.act_window,name:l10n_cr_edi_product_cabys.action_l10n_cr_edi_product_cabys
+#: model:ir.ui.menu,name:l10n_cr_edi_product_cabys.menu_l10n_cr_edi_product_cabys
+msgid "Product Cabys Code"
+msgstr "Código CABYS"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model,name:l10n_cr_edi_product_cabys.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model,name:l10n_cr_edi_product_cabys.model_l10n_cr_edi_product_cabys
+msgid "Product and Service Codes from DGT Data"
+msgstr "El código CABYS debe ser único"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,field_description:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__tax_amount
+msgid "Tax Amount"
+msgstr "Monto de impuesto sugerido"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,help:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__tax_amount
+msgid "Tax amount"
+msgstr "Monto de impuesto sugerido"
+
+#. module: l10n_cr_edi_product_cabys
+#: sql_constraint:l10n.cr.edi.product.cabys:0
+msgid "The code must be unique per CABYS!"
+msgstr "El código CABYS debe ser único!"
+
+#. module: l10n_cr_edi_product_cabys
+#: model:ir.model.fields,help:l10n_cr_edi_product_cabys.field_l10n_cr_edi_product_cabys__code
+#: model:ir.model.fields,help:l10n_cr_edi_product_cabys.field_product_product__l10n_cr_edi_code_cabys_id
+#: model:ir.model.fields,help:l10n_cr_edi_product_cabys.field_product_template__l10n_cr_edi_code_cabys_id
+msgid "This value is required in all eInvoicing XML version 4.3 to express the code of the product or service covered by the present concept. Must be used a key from the DGT catalog (CABYS)."
+msgstr "Este valor es requerido en la versión 4.3 de facturación electrónica para Costa Rica. Debe utilizar un código del Catálogo de Productos y Servicios (CABYS)"
