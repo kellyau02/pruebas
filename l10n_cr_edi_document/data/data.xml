@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+    <record id="l10n_cr_edi_document_rounding_adjustment_limit" model="ir.config_parameter">
+        <field name="key">l10n_cr_edi_document.rounding_adjustment_limit</field>
+        <field name="value">5</field>
+    </record>
+</odoo>
