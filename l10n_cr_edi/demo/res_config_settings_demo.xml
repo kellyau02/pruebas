@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-
-    <record id="staging_configuration" model="res.config.settings">
-        <field name="company_id" ref="base.main_company"/>
-    </record>
-
-</odoo>
