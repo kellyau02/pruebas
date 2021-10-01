@@ -1,0 +1,240 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_tilopay
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-24 16:24+0000\n"
+"PO-Revision-Date: 2021-09-24 16:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_auth
+msgid "Auth"
+msgstr "Auth"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_authorization
+msgid "Authorization"
+msgstr "Autorización"
+
+#. module: payment_tilopay
+#: model:ir.model,name:payment_tilopay.model_bt_payment_tilopay_token
+msgid "BT - Payment Tilopay - Token"
+msgstr "Token"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_brand
+msgid "Brand"
+msgstr "Marca"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_crd
+msgid "CRD"
+msgstr "CRD"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_code
+msgid "Code"
+msgstr "Código"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#, python-format
+msgid "Connection issues."
+msgstr "Problemas de conexión"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__date
+msgid "Date Create"
+msgstr "Fecha de creación"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__date_expire
+msgid "Date Expire"
+msgstr "Fecha de expiración"
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#, python-format
+msgid "Denied"
+msgstr "Denegado"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__display_name
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer__display_name
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_gateway_transaction
+msgid "Gateway transaction"
+msgstr "Transacción puerta de enlace"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__id
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer__id
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__id
+msgid "ID"
+msgstr "ID"
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#, python-format
+msgid "Internal error - unknown code (%s)"
+msgstr "Error interno - Código desconocido (%s)"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token____last_update
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer____last_update
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_last_digits
+msgid "Last digits"
+msgstr "Últimos dígitos"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__expires_in
+#: model:ir.model.fields,field_description:payment_tilopay.field_bt_payment_tilopay_token__token
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_order
+msgid "Order"
+msgstr "Orden"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_padded
+msgid "Padded"
+msgstr "Padded"
+
+#. module: payment_tilopay
+#: model:ir.model,name:payment_tilopay.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "Método de Pago"
+
+#. module: payment_tilopay
+#: model:ir.model,name:payment_tilopay.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Transacción de pago"
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/bt_payment_tilopay_token.py:0
+#, python-format
+msgid "Problemas de conexion."
+msgstr "Problemas de conexión."
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#, python-format
+msgid "Rejected"
+msgstr "Rechazado"
+
+#. module: payment_tilopay
+#: model_terms:payment.acquirer,auth_msg:payment_tilopay.payment_acquirer_tilopay
+msgid "Se ha autorizado tu pago."
+msgstr "Se ha autorizado tu pago."
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#: model:ir.model.fields.selection,name:payment_tilopay.selection__payment_acquirer__provider__tilopay
+#: model:payment.acquirer,name:payment_tilopay.payment_acquirer_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.acquirer_form_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.payment_transaction_form_tilopay
+#, python-format
+msgid "Tilopay"
+msgstr "Tilopay"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.acquirer_form_tilopay
+msgid "Tilopay - App"
+msgstr "Aplicación de Tilopay"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer__tilopay_email_account
+msgid "Tilopay Email Account"
+msgstr "Correo electrónico de Tilopay"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer__tilopay_key_account
+msgid "Tilopay Key Account"
+msgstr "Llave de Tilopay"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_acquirer__tilopay_password_account
+msgid "Tilopay Password Account"
+msgstr "Contraseña de Tilopay"
+
+#. module: payment_tilopay
+#: model:ir.model.fields,field_description:payment_tilopay.field_payment_transaction__tilopay_tp_transaction
+msgid "Tilopay transaction"
+msgstr "Transacción Tilopay"
+
+#. module: payment_tilopay
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#: code:addons/payment_tilopay/models/payment_acquirer.py:0
+#, python-format
+msgid "Tilopay: %s"
+msgstr "Tilopay: %s"
+
+#. module: payment_tilopay
+#: model_terms:payment.acquirer,cancel_msg:payment_tilopay.payment_acquirer_tilopay
+msgid "Tu pago ha sido cancelado."
+msgstr "Tu pago ha sido cancelado."
+
+#. module: payment_tilopay
+#: model_terms:payment.acquirer,pending_msg:payment_tilopay.payment_acquirer_tilopay
+msgid "Tu pago ha sido procesado con éxito pero está en espera de tu aprobación."
+msgstr "Tu pago ha sido procesado con éxito pero está en espera de tu aprobación."
+
+#. module: payment_tilopay
+#: model_terms:payment.acquirer,done_msg:payment_tilopay.payment_acquirer_tilopay
+msgid "Tu pago se ha procesado con éxito. ¡Gracias!"
+msgstr "Tu pago se ha procesado con éxito. ¡Gracias!"

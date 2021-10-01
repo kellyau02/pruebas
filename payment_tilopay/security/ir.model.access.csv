@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bt_payment_tilopay_token,bt.payment.tilopay.token,model_bt_payment_tilopay_token,website.group_website_designer,1,1,1,1
+access_bt_payment_tilopay_token_readonly,bt.payment.tilopay.token readonly,model_bt_payment_tilopay_token,website.group_website_publisher,1,0,0,0
+access_payment_acquirer,payment.acquirer,model_payment_acquirer,website.group_website_designer,1,1,1,1
+access_payment_acquirer_readonly,payment.acquirer readonly,model_payment_acquirer,website.group_website_publisher,1,0,0,0

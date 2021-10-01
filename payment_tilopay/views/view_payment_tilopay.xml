@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="acquirer_form_tilopay" model="ir.ui.view">
+            <field name="name">acquirer.form.tilopay</field>
+            <field name="model">payment.acquirer</field>
+            <field name="inherit_id" ref="payment.acquirer_form"/>
+            <field name="arch" type="xml">
+                <xpath expr='//group[@name="acquirer"]' position='inside'>
+                    <group attrs="{'invisible': [('provider', '!=', 'tilopay')]}">
+                        <field name="tilopay_email_account" 
+                            password="True"
+                            attrs="{'required':[('provider', '=', 'tilopay'), ('state', '!=', 'disabled')]}"/>
+                        <field name="tilopay_password_account" 
+                            password="True"
+                            attrs="{'required':[('provider', '=', 'tilopay'), ('state', '!=', 'disabled')]}"/>
+                        <field name="tilopay_key_account" 
+                            password="True"
+                            attrs="{'required':[('provider', '=', 'tilopay'), ('state', '!=', 'disabled')]}"/>
+                        <a colspan="2" href="https://tilopay.com/cr/" target="_blank">Tilopay</a>
+                        <a colspan="2" href="https://app.tilopay.com" target="_blank">Tilopay - App</a>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

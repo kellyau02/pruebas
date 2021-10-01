@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="payment_transaction_form_tilopay" model="ir.ui.view">
+            <field name="name">acquirer.form.tilopay</field>
+            <field name="model">payment.transaction</field>
+            <field name="inherit_id" ref="payment.transaction_form"/>
+            <field name="arch" type="xml">
+                <xpath expr='//group[1]' position='after'>
+                    <group attrs="{'invisible': [('tilopay_code', '=', False)]}"
+                        string="Tilopay">
+                        <group>
+                            <field name="tilopay_code" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_code', '=', False)]}"/>
+                            <field name="tilopay_description" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_description', '=', False)]}"/>
+                            <field name="tilopay_auth" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_auth', '=', False)]}"/>
+                            <field name="tilopay_order" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_order', '=', False)]}"/>
+                            <field name="tilopay_crd" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_crd', '=', False)]}"/>
+                            <field name="tilopay_padded" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_padded', '=', False)]}"/>
+                        </group>
+                        <group>
+                            <field name="tilopay_authorization" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_authorization', '=', False)]}"/>
+                            <field name="tilopay_brand" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_brand', '=', False)]}"/>
+                            <field name="tilopay_last_digits" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_last_digits', '=', False)]}"/>
+                            <field name="tilopay_gateway_transaction" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_gateway_transaction', '=', False)]}"/>
+                            <field name="tilopay_tp_transaction" 
+                                readonly="1"
+                                attrs="{'invisible':[('tilopay_tp_transaction', '=', False)]}"/>
+                        </group>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

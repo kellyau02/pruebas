@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+<!-- payment -->
+        <record id="payment_acquirer_tilopay" model="payment.acquirer">
+            <field name="name">Tilopay</field>
+            <field name="image_128" type="base64" file="payment_tilopay/static/src/img/tilopay_icon.png"/>
+            <field name="provider">tilopay</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="tilopay_form"/>
+            <field name="description" type="html">
+                <p>
+                    A payment gateway from Tilopay to accept online payments via credit cards.
+                </p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><i class="fa fa-check"/>Online Payment</li>
+                    <li class="list-inline-item"><i class="fa fa-check"/>Payment Status Tracking</li>
+                </ul>
+            </field>
+        </record>
+
+    </data>
+</odoo>
+

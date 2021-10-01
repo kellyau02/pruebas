@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <template id="tilopay_form">
+            <div>
+                <input type="hidden" name="data_set" t-att-data-action-url="tx_url" data-remove-me=""/>
+                <input type="hidden" name="url_payment" t-att-value="url_payment"/>
+                <!-- <input type="hidden" name="redirect" t-att-value="redirect"/> -->
+                <!-- URLs -->
+                <!-- <input t-if="paypal_return" type="hidden" name='return'
+                    t-att-value="paypal_return"/>
+                <input t-if="acquirer.paypal_use_ipn" type="hidden" name='notify_url'
+                    t-att-value="notify_url"/>
+                <input t-if="cancel_return" type="hidden" name="cancel_return"
+                    t-att-value="cancel_return"/> -->
+            </div>
+        </template>
+    </data>
+</odoo>

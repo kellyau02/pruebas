@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <template id="tilopay_form">
+            <div>
+                <input type="hidden" name="data_set" t-att-data-action-url="tx_url" data-remove-me=""/>
+                <input type="hidden" name="cmd" t-att-value="cmd"/>
+                <input type="hidden" name="redirect" t-att-value="redirect"/>
+                <input type="hidden" name="key" value="key" />
+                <input type="hidden" name="amount" t-att-value="amount"/>
+                <input type="hidden" name="currency" t-att-value="currency"/>
+                <input type="hidden" name="billToFirstName" t-att-value="billToFirstName"/>
+                <input type="hidden" name="billToLastName" t-att-value="billToLastName"/>
+                <input type="hidden" name="billToAddress" t-att-value="billToAddress"/>
+                <input type="hidden" name="billToAddress2" t-att-value="billToAddress2"/>
+                <input type="hidden" name="billToCity" t-att-value="billToCity"/>
+                <input type="hidden" name="billToState" t-att-value="billToState"/>
+                <input type="hidden" name="billToZipPostCode" t-att-value="billToZipPostCode"/>
+                <input type="hidden" name="billToCountry" t-att-value="billToCountry"/>
+                <input type="hidden" name="billToTelephone" t-att-value="billToTelephone"/>
+                <input type="hidden" name="billToEmail" t-att-value="billToEmail"/>
+                <input type="hidden" name="orderNumber" t-att-value="orderNumber"/>
+                <input type="hidden" name="capture" t-att-value="capture"/>
+                <input type="hidden" name="subscription" t-att-value="subscription"/>
+                <!-- URLs -->
+                <input t-if="paypal_return" type="hidden" name='return'
+                    t-att-value="paypal_return"/>
+                <input t-if="acquirer.paypal_use_ipn" type="hidden" name='notify_url'
+                    t-att-value="notify_url"/>
+                <input t-if="cancel_return" type="hidden" name="cancel_return"
+                    t-att-value="cancel_return"/>
+            </div>
+        </template>
+    </data>
+</odoo>
